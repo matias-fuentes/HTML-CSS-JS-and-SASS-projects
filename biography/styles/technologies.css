@@ -1,0 +1,82 @@
+.technologies-container * {
+    margin-bottom: 3.2rem;
+}
+
+.technology-container {
+    margin: 12.8rem 0rem;
+}
+
+.technology-container img {
+    height: 20rem;
+}
+
+.technology-container > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.button-container {
+    background-color: #0078d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3.2rem 0rem;
+}
+
+.button-container * {
+    margin: 0 !important;
+}
+
+.button-container > img {
+    margin: 0.6rem 0rem 0rem 0.6rem !important;
+}
+
+.project {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .technologies-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .technologies-container * {
+        margin-bottom: 2.4rem;
+    }
+
+    .technology-container {
+        margin: 2.4rem 0rem;
+    }
+
+    .technology-container img {
+        width: 16rem;
+        margin-right: 0.8rem;
+        height: auto;
+    }
+
+    .technologies-container > div {
+        display: flex;
+        flex-basis: 48rem;
+        text-align: center;
+    }
+
+    .front-end-langs-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button-container {
+        padding: 0.8rem 0rem;
+    }
+
+    .button-container:hover {
+        cursor: pointer;
+        transition: all 0.25s;
+        background-color: #0078d775;
+    }
+}

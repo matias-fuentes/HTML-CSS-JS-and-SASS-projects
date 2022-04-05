@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="./styles/normalize.css" />
+        <link rel="stylesheet" href="./styles/globals.css" />
+        <link rel="stylesheet" href="./styles/header.css" />
+        <link rel="stylesheet" href="./styles/gallery.css" />
+        <link rel="stylesheet" href="./styles/about-me.css" />
+        <link rel="stylesheet" href="./styles/career.css" />
+        <link rel="stylesheet" href="./styles/technologies.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="icon" href="./svgs/header/logo.svg" />
+
+        <title>Biography</title>
+    </head>
+
+    <header class="header-container">
+        <div class="header-divs-container">
+            <!-- Mobile -->
+            <div class="dropdown-div">
+                <div class="dropdown-header-container">
+                    <img
+                        class="dropdown-logo"
+                        src="./svgs/header/dropdown-logo.svg"
+                        alt="Logo"
+                    />
+                    <h1 class="borderless-title">Biography</h1>
+                </div>
+                <div class="personal-information-container">
+                    <div class="presentation-photo-container">
+                        <img
+                            class="presentation-photo"
+                            src="./images/presentation-photo.webp"
+                            alt="Presentation photo"
+                        />
+                    </div>
+                    <div>
+                        <h2>Name:</h2>
+                        <h2 class="personal-information">Matías Fuentes</h2>
+                    </div>
+                    <div>
+                        <h2>Birth:</h2>
+                        <h2 class="personal-information">
+                            18th December, 2002
+                        </h2>
+                    </div>
+                    <div>
+                        <h2>Age:</h2>
+                        <h2 class="personal-information">18</h2>
+                    </div>
+                    <div>
+                        <h2>Address:</h2>
+                        <h2 class="personal-information">
+                            Sol de Mayo 30, Rosario
+                        </h2>
+                    </div>
+                </div>
+
+                <hr />
+                <div class="justified-settings">
+                    <h2>Dark Mode</h2>
+                    <label class="switch-button">
+                        <input type="checkbox" />
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <hr />
+
+                <div class="navigation-container">
+                    <a href="#gallery">Gallery</a>
+                    <a href="#about-me">About Me</a>
+                    <a href="#career">Career</a>
+                    <a href="#technologies">Technologies</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="transparent-div"></div>
+
+            <!-- Desktop -->
+            <div class="header-elements-container">
+                <div class="menu-container">
+                    <img id="mode-menu" alt="Menu" />
+                </div>
+                <a class="icon-container" href="./index.html">
+                    <img class="logo" src="./svgs/header/logo.svg" alt="Logo" />
+                </a>
+                <nav id="navigation">
+                    <a href="#gallery">Gallery</a>
+                    <a href="#about-me">About Me</a>
+                    <a href="#technologies">Technologies</a>
+                    <a href="#career">Career</a>
+                </nav>
+                <div class="icon-container">
+                    <img id="dark-mode" alt="Dark mode" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <body>
+        <section class="gallery">
+            <!-- .anchor's styles are stored in globals -->
+            <div id="gallery" class="anchor"></div>
+            <div class="blurred-background"></div>
+            <div class="carousel-container">
+                <input
+                    class="arrow-properties arrow-left"
+                    type="image"
+                    src="./svgs/gallery/left-arrow.svg"
+                    alt="Arrow left"
+                />
+                <input
+                    class="arrow-properties arrow-right"
+                    type="image"
+                    src="./svgs/gallery/right-arrow.svg"
+                    alt="Arrow right"
+                />
+                <div class="images-carousel-container">
+                    <img alt="Photo 10" />
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 1" />
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 2" />
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 3" />
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 4" />
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 5" />
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 6" />
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 7" />
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 8" />
+                </div>
+                <div class="images-carousel-container">
+                    <img alt="Photo 9" />
+                </div>
+            </div>
+        </section>
+
+        <section class="about-me">
+            <!-- .anchor's styles are stored in globals -->
+            <div id="about-me" class="anchor"></div>
+            <div class="about-me-container">
+                <div class="about-me-margin">
+                    <img
+                        class="about-me-user"
+                        src="./svgs/AboutMe/user.svg"
+                        alt="User icon"
+                    />
+                    <div class="title-margin">
+                        <h1>About Me</h1>
+                    </div>
+                    <!-- .subtitle-container's styles are stored in globals -->
+                    <div class="subtitle-container">
+                        <h2>Hello world, here Matías Fuentes</h2>
+                    </div>
+                    <p class="presentation">
+                        Hello! Nice to meet you! I present myself, I'm Matías,
+                        an argentine young full-stack web developer, and
+                        THIS is part of one of my projects of my Harvard career!
+                        On this occasion they have given us the challenge of
+                        making one of our first pages; an autobiography! But,
+                        without feeling entirely satisfied, I have decided to go
+                        a little further, in order to turn it into part of my
+                        own portfolio! Like a kind of CV, but with style~
+                    </p>
+                    <div>
+                        <p>
+                            Well, here are some things
+                            <span class="span-bold">about me:</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- .characteristics's styles are stored in globals -->
+            <div class="things-about-me">
+                <div class="characteristics">
+                    <img
+                        class="about-me-icon"
+                        src="./svgs/AboutMe/geek.svg"
+                        alt="Geek icon"
+                    />
+                    <h2>Geek</h2>
+                    <p class="flex-direction-column">
+                        I have been in front of a computer since I was just
+                        four, and since then, I just simply could not stop!
+                        <b>
+                            It was like my place where I could just be myself,
+                        </b>
+                        create, and do all the things that I love. I've been
+                        always interested in technology in general; from
+                        something so basic as a simple little bit, to something
+                        so big and complex as an, I don't know, an Artificial
+                        Intelligence with a deep neural network to make cars
+                        full self-driving. Things like that drives me crazy! And
+                        precisely by things like that, it's why I just simply
+                        love being a programmer &lt3, and have planned to learn
+                        and apply everything as I can from this world.
+                    </p>
+                </div>
+                <div class="characteristics">
+                    <img
+                        class="about-me-icon"
+                        src="./svgs/AboutMe/big-dreamer.svg"
+                        alt="Big Dreamer icon"
+                    />
+                    <h2>Big Dreamer</h2>
+                    <p class="flex-direction-column">
+                        Bill Gates, Elon Musk, Linus Torvalds... Those people
+                        are just great references for me, and helped me to reach
+                        where I'm actually are. People like them are the reason
+                        why I always wake up in the morning, make me some nice
+                        breakfast, and... just type. Type, and type, and type.
+                        Lovely types! Trying always to perform, to push myself,
+                        to learn something new... And with that, at the end of
+                        the day, be able to create. To contribute. And to make
+                        something that, hopefully, one day, changes the world.
+                        To better. Hopefully one day my types reaches and helps
+                        to the people who more needs them.
+                        <b>
+                            I have big dreams. And I'm determined to accomplish
+                            them.
+                        </b>
+                    </p>
+                </div>
+                <div class="characteristics">
+                    <img
+                        class="about-me-icon"
+                        src="./svgs/AboutMe/proactive.svg"
+                        alt="Proactive icon"
+                    />
+                    <h2>Proactive</h2>
+                    <p class="flex-direction-column">
+                        I love have control over things. Take the lead and work
+                        as a team!
+                        <b>
+                            And make sure that everything, from the starting
+                            point, to the production of whatever I'm working on,
+                            works. And works well.
+                        </b>
+                        The half-done work are not enough for me, and even more
+                        important, not enough to satisfy what the client needs.
+                        However, I don't consider myself a perfectionist, I know
+                        my limits. But I really like the well-done work and be
+                        part of it, in every aspect. That's one of the reasons
+                        why I've choose on being a full-stack web developer!
+                    </p>
+                </div>
+                <div class="characteristics">
+                    <img
+                        class="about-me-icon"
+                        src="./svgs/AboutMe/competitive.svg"
+                        alt="Competitive icon"
+                    />
+                    <h2>Competitive</h2>
+                    <p class="flex-direction-column">
+                        Hah! Yeah! I love being competitive and be part of
+                        tournaments when I'm playing whatever I'm playing,
+                        specially in sports and videogames! And, ultimately,
+                        I've been interested in take part of a Game Jam. Seeing
+                        how people manage to put out something soo complex, and,
+                        at the same time, coherent and fun as a game could be,
+                        it's something that it should be amazing to take part of
+                        it.
+                        <b>
+                            Work as a team against other very capable people to,
+                            at the end of the day with all the effort and stress
+                            finally came up with something fun, enjoyable, and
+                            playable... it's totally worth it.
+                        </b>
+                    </p>
+                </div>
+                <div class="characteristics">
+                    <img
+                        class="about-me-icon"
+                        src="./svgs/AboutMe/self-improvement.svg"
+                        alt="Self-Improvement icon"
+                    />
+                    <h2>Self-Improvement</h2>
+                    <p class="flex-direction-column">
+                        I always try to perform myself and refine my
+                        personality, in order to be a better person in every
+                        aspect of my life. When things are not going as well as
+                        I would like, often I try to figure it out by myself
+                        what I'm doing wrong, and what can I do about it. If I
+                        can't handle it by myself, I turn to the help on those
+                        that I trust, and that I know that they can give me a
+                        hand. And if someone is bothered by something that I've
+                        done or whatever,
+                        <b>
+                            I always listen to them, apologize, and reconcile,
+                            trying since then, to have a better behavior and
+                            that we get along even better.
+                        </b>
+                    </p>
+                </div>
+                <div class="characteristics">
+                    <img
+                        class="about-me-icon"
+                        src="./svgs/AboutMe/rational.svg"
+                        alt="Rational icon"
+                    />
+                    <h2>Rational & Objective</h2>
+                    <p class="flex-direction-column">
+                        Something characteristic about me is that I try to face
+                        problems with the greatest possible rationality and
+                        objectivity. I think is the best approach to solve
+                        different kind of problems. Even more so in something so
+                        methodical and aligned with matemathics such as it could
+                        be the Computer Science. And, besides that, it's a kind
+                        of mentality approach that I love to apply on.
+                        Everything that has to do with logic and exact sciences,
+                        I'm just fascinated.
+                        <b>
+                            For the sake of the work, every time I discern my
+                            subjectivity from my objectivity, so that it doesn't
+                            interfer.
+                        </b>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <!-- .anchor & .text-center's styles are stored in globals -->
+            <div id="technologies" class="anchor"></div>
+            <div class="text-center">
+                <h1>Technologies</h1>
+            </div>
+            <div class="technologies-container">
+                <div class="technology-container">
+                    <div class="front-end-langs-container">
+                        <img src="./images/technologies/c.webp" />
+                    </div>
+                    <div>
+                        <h2>C</h2>
+                        <hr />
+                        <p>
+                            C was the first language that I've learned. I've learned it in my Harvard career. In there I've learned all the basics of programming, and a lot of low-level concepts, such as addresses, pointers, memory laout, data structures, linked lists, binary trees, etc.
+                        </p>
+
+                        <a
+                            class="button-container project"
+                            href="https://github.com/matias-fuentes/C-projects"
+                        >
+                            <h2>Projects</h2>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/technologies/bold-right-arrow.svg"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img src="./images/technologies/html-css-js.webp" />
+                        <img src="./images/technologies/sass.webp" />
+                    </div>
+                    <div>
+                        <h2>HTML, CSS, JS & SASS</h2>
+                        <hr />
+                        <p>
+                            Of course I know all the basics, and these technologies began to be part of my day to day. Also I've learned SASS in an Udemy course that I'm doing about PHP. You can check it by your own by seeing the source code of this page! Or, by my projects:
+                        </p>
+
+                        <a
+                            class="button-container project"
+                            href="https://github.com/matias-fuentes/HTML-CSS-JS-and-SASS-projects"
+                        >
+                            <h2>Projects</h2>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/technologies/bold-right-arrow.svg"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img src="./images/technologies/python.webp" />
+                    </div>
+                    <div>
+                        <h2>Python</h2>
+                        <hr />
+                        <p>
+                            One of my strong points, is definitely Python. Here is where I've started implementing more complex and dynamic pages with databases. Taught by Harvard, with Python I've done one of my proudest projects (in fact, the final project); <a href="https://cs50-wikifood.herokuapp.com/" class="career-link">WikiFood</a>.
+                        </p>
+
+                        <a
+                            class="button-container project"
+                            href="https://github.com/matias-fuentes/Python-projects"
+                        >
+                            <h2>Projects</h2>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/technologies/bold-right-arrow.svg"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img id="next-svg" src="./images/technologies/next.js.svg" />
+                    </div>
+                    <div>
+                        <h2>Full Stack Framework (Next.JS)</h2>
+                        <hr />
+                        <p>
+                            Next is definitely my favourite framework. With it I have been able to create many of very complex projects becoming my primary work tool, since scratch, until deployment and production. Taught in <a class="career-link" href="https://www.udemy.com/course/nextjs-react-the-complete-guide/">Udemy</a> by Maximilian Schwarzmüller, and already completed.
+                        </p>
+
+                        <a
+                            class="button-container project"
+                            href="https://github.com/matias-fuentes/Next-projects"
+                        >
+                            <h2>Projects</h2>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/technologies/bold-right-arrow.svg"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img src="./images/technologies/react.webp" />
+                    </div>
+                    <div>
+                        <h2>Frontend Framework (React)</h2>
+                        <hr />
+                        <p>
+                            React in conjunction with Next, have become in my favourites and, actually, main frameworks to develop web pages. With a reactive feedback, and taught in <a class="career-link" href="https://www.udemy.com/course/nextjs-react-the-complete-guide/">Udemy</a> by one of the teachers of <a class="career-link" href="https://www.youtube.com/c/academind">Academind</a>, I've been able to learn one of the best and more demanded frameworks that actually are on the market~
+                        </p>
+
+                        <a
+                            class="button-container project"
+                            href="https://github.com/matias-fuentes/React-projects"
+                        >
+                            <h2>Projects</h2>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/technologies/bold-right-arrow.svg"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img id="flask-svg" src="./images/technologies/flask.svg" />
+                    </div>
+                    <div>
+                        <h2>Backend Framework (Flask)</h2>
+                        <hr />
+                        <p>
+                            Flask was the first framework that I've learned. Also imparted by Harvard, and also used to create <a href="https://cs50-wikifood.herokuapp.com/" class="career-link">WikiFood</a>, I've learned that Flask is an excellent option if a traditional and a server-side web pages render is your approach. With its full and complete documentation, Flask becomes very useful!
+                        </p>
+
+                        <a
+                            class="button-container project"
+                            href="https://github.com/matias-fuentes/Flask-projects"
+                        >
+                            <h2>Projects</h2>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/technologies/bold-right-arrow.svg"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img src="./images/technologies/mysql.webp">
+                    </div>
+                    <div>
+                        <h2>SQL (SQLite, MySQL)</h2>
+                        <hr />
+                        <p>
+                            I've used sqlite3 with phpLiteAdmin for the Harvard career, and, when I least expected it, I realised that it was very easy and helpful to use them! Also, to deploy my apps now with a real database, I have to learn MySQL by my own, and, emigrate all my backend to it! Work hard, but, it was worth it!
+                        </p>
+
+                        <a
+                            class="button-container project"
+                            href="https://github.com/matias-fuentes/SQL-projects"
+                        >
+                            <h2>Projects</h2>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/technologies/bold-right-arrow.svg"
+                            />
+                        </a>
+                    </div>
+                </div>
+                <div class="technology-container">
+                    <div>
+                        <img src="./images/technologies/firebase.webp" />
+                    </div>
+                    <div>
+                        <h2>NoSQL (Firebase)</h2>
+                        <hr />
+                        <p>
+                            And finally, to get out a little bit of the box and try something new, I've learned how to use NoSQL, and... It was way easier than I thought. With an already prepared API, free plans, and a so intuitive dashboard, Firebase just rocks! And probably I'll use it more often than I've expected! 
+                        </p>
+
+                        <a
+                            class="button-container project"
+                            href="https://github.com/matias-fuentes/NoSQL-projects"
+                        >
+                            <h2>Projects</h2>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/technologies/bold-right-arrow.svg"
+                            />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="career">
+            <!-- .anchor & .text-center's styles are stored in globals -->
+            <div id="career" class="anchor"></div>
+            <div class="text-center">
+                <h1>Career</h1>
+            </div>
+            <div class="careers">
+                <img src="./images/career/high-school-certificate.webp" />
+                <div class="description-container">
+                    <!-- .subtitle-container's styles are stored in globals -->
+                    <div class="subtitle-container">
+                        <h2>
+                            Bachelor at Economy and Administration at Santo
+                            Domingo Savio
+                        </h2>
+                    </div>
+                    <p class="paragraph">
+                        Here, at the Santo Domingo Savio high school, I've
+                        learned all what I know about economy and
+                        administration. I prefer this modality over humanity in
+                        big part due to the closeness with the numbers. Here,
+                        I've learned: matemathics analysis, accounting, design
+                        of organizations and process, micro and macroeconomy,
+                        costs, statistics, financial matemathics, production and
+                        services, taxes, economy structure, business finance,
+                        production management, control management, leadership
+                        and negotiation, strategic administration, global
+                        management strategies, investment projects, etc.
+                    </p>
+                    <!-- .characteristics's styles are stored in globals -->
+                    <div class="characteristics-container">
+                        <div class="characteristics">
+                            <div>
+                                <img
+                                    class="career-icons"
+                                    src="./svgs/career/hourglass.svg"
+                                    alt="Hourglass"
+                                />
+                            </div>
+                            <div>
+                                <h3>5 years</h3>
+                            </div>
+                        </div>
+                        <div class="characteristics">
+                            <div>
+                                <img
+                                    class="career-icons"
+                                    src="./svgs/career/map-pin.svg"
+                                    alt="Map pin"
+                                />
+                            </div>
+                            <div>
+                                <h3>
+                                    Don Bosco 10, Rosario, Santa Fe, Argentina
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="characteristics">
+                            <div>
+                                <img
+                                    class="career-icons"
+                                    src="./svgs/career/graduation-cap.svg"
+                                    alt="Graduation cap"
+                                />
+                            </div>
+                            <div>
+                                <h3>Graduated</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="careers">
+                <img
+                    class="mobile-image"
+                    src="./images/career/bigben-english-institute.webp"
+                />
+                <div class="half-page left-containers">
+                    <div class="description-container">
+                        <div>
+                            <h2>English at BigBen English Institute</h2>
+                        </div>
+                        <p class="paragraph">
+                            I've been here when I was a little younger for like,
+                            four years, and, it was amazing! They've teached me
+                            a lot of things that I actually know about the
+                            English language. I had to leave it due to the jump
+                            to high school, due to the little time available
+                            that I had I preferred to spend it with my friends,
+                            and, mainly, due to financial problems. If it hadn't
+                            been because I came to this institute, I probably
+                            never had the chance to study at Harvard, since
+                            everything is in English, so... I'm really in debt
+                            with them. Hopefully I can finish my last year, and
+                            get graduated!
+                        </p>
+                        <!-- .characteristics's styles are stored in globals -->
+                        <div class="characteristics-container">
+                            <div class="characteristics">
+                                <div>
+                                    <img
+                                        class="career-icons"
+                                        src="./svgs/career/hourglass.svg"
+                                        alt="Hourglass"
+                                    />
+                                </div>
+                                <div>
+                                    <h3>5 years</h3>
+                                </div>
+                            </div>
+                            <div class="characteristics">
+                                <div>
+                                    <img
+                                        class="career-icons"
+                                        src="./svgs/career/map-pin.svg"
+                                        alt="Map pin"
+                                    />
+                                </div>
+                                <div>
+                                    <h3>
+                                        Díaz Vélez 236, Rosario, Santa Fe,
+                                        Argentina
+                                    </h3>
+                                </div>
+                            </div>
+                            <div class="characteristics">
+                                <div>
+                                    <img
+                                        class="career-icons"
+                                        src="./svgs/career/graduation-cap.svg"
+                                        alt="Graduation cap"
+                                    />
+                                </div>
+                                <div>
+                                    <h3>Not graduated (4/5 years done)</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img
+                    class="desktop-image"
+                    src="./images/career/bigben-english-institute.webp"
+                />
+            </div>
+            <hr />
+            <div class="careers">
+                <img src="./images/career/react-next-course.webp" />
+                <div class="description-container">
+                    <!-- .subtitle-container's styles are stored in globals -->
+                    <div class="subtitle-container">
+                        <h2>
+                            React and Next.JS complete guide course at Academind
+                        </h2>
+                    </div>
+                    <p class="paragraph margin-8">
+                        The Next.js & React - The Complete Guide (incl. Two Paths!) full course, it's the bestselling course of React in Udemy, with almost 30k students who also took this course. Maximilian Schwarzmüller it's one of the teachers of Academind, an online YouTube academy for web programmers with almost 1M suscribers! Maximilian it's the best instructor I've ever had, and with his teachings I've been able to learn, absorb, and master the last technologies that the actual market demands. I wish I had met him before. However, this is only the first step to learn a wide range of languages and technologies, and, hopefully, learn with his teachings!
+                        <div class="certificate-link-container margin-8">
+                            <a class="certificate-link" href="https://www.udemy.com/certificate/UC-bb1a6577-6ab0-47c5-a8b1-3ed9a9b0c8b5/">
+                                Certificate Link
+                            </a>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/AboutMe/blue-right-arrow.svg"
+                            />
+                        </div>
+                    </p>
+                    <!-- .characteristics's styles are stored in globals -->
+                    <div class="characteristics-container">
+                        <div class="characteristics">
+                            <div>
+                                <img
+                                    class="career-icons"
+                                    src="./svgs/career/hourglass.svg"
+                                    alt="Hourglass"
+                                />
+                            </div>
+                            <div>
+                                <h3>3 months</h3>
+                            </div>
+                        </div>
+                        <div class="characteristics">
+                            <div>
+                                <img
+                                    class="career-icons"
+                                    src="./svgs/career/map-pin.svg"
+                                    alt="Map pin"
+                                />
+                            </div>
+                            <div>
+                                <h3>
+                                    Wherever you want (online)
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="characteristics">
+                            <div>
+                                <img
+                                    class="career-icons"
+                                    src="./svgs/career/graduation-cap.svg"
+                                    alt="Graduation cap"
+                                />
+                            </div>
+                            <div>
+                                <h3>Graduated</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="careers career-borderless">
+                <img class="mobile-image" src="./images/career/cs50x.webp" />
+                <div class="half-page">
+                    <div class="description-container">
+                        <h2>Computer Science at Harvard University</h2>
+                    </div>
+                    <p class="paragraph center margin-8">
+                        Yep. I've studied at Harvard. And yes, it was rough.
+                        Very rough. Obviously I could not study in a
+                        presencial way (due to the Coronavirus, location,
+                        and, welp, money), but at least I can say that I
+                        fulfilled my wish of study in the university of my
+                        dreams. The notes, the videos, the projects, even
+                        the online classes!! It was incredible to be there
+                        and be part of the class! Despite the fact that the
+                        online classes didn't have the same essence and
+                        closeness that it would surely have if everything
+                        had been given in person, I learned. A lot. And take
+                        part of study groups, and... I don't know, the
+                        experience was simply enriching. In every way.
+                        <div class="certificate-link-container margin-8">
+                            <a class="certificate-link" href="https://certificates.cs50.io/8b4d4c22-8a13-4bf0-8bea-f610957f55a3.pdf?size=letter">
+                                Certificate Link
+                            </a>
+                            <img
+                                class="hyperlink-arrow"
+                                src="./svgs/AboutMe/blue-right-arrow.svg"
+                            />
+                        </div>
+                    </p>
+                    <!-- .characteristics's styles are stored in globals -->
+                    <div class="characteristics-container">
+                        <div class="characteristics">
+                            <div>
+                                <img
+                                    class="career-icons"
+                                    src="./svgs/career/hourglass.svg"
+                                    alt="Hourglass"
+                                />
+                            </div>
+                            <div class="flex-column">
+                                <h3>1 year</h3>
+                            </div>
+                        </div>
+                        <div class="characteristics">
+                            <div>
+                                <img
+                                    class="career-icons"
+                                    src="./svgs/career/map-pin.svg"
+                                    alt="Map pin"
+                                />
+                            </div>
+                            <div>
+                                <h3>Wherever you want (online)</h3>
+                            </div>
+                        </div>
+                        <div class="characteristics">
+                            <div>
+                                <img
+                                    class="career-icons"
+                                    src="./svgs/career/graduation-cap.svg"
+                                    alt="Graduation cap"
+                                />
+                            </div>
+                            <div>
+                                <h3>Graduated</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="desktop-image" src="./images/career/cs50x.webp">
+            </div>
+        </section>
+
+        <footer id="footer">
+            <div>
+                <div class="footer-title-container">
+                    <div>
+                        <h2 class="footer-title">Contact</h2>
+                        <div>
+                            <div class="contact-means">
+                                <img src="./svgs/footer/email.svg" />
+                                <h3>MatiasDamianFuentes@outlook.es</h3>
+                            </div>
+                            <div class="contact-means">
+                                <img src="./svgs/footer/phone.svg" />
+                                <h3>+49 176 59628041</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="footer-title">Social Medias</h2>
+                        <nav class="footer-nav">
+                            <a
+                                href="https://github.com/matias-fuentes"
+                                >GitHub</a
+                            >
+                            <a
+                                href="https://www.linkedin.com/in/matías-fuentes-437414191/"
+                                >LinkedIn</a
+                            >
+                        </nav>
+                    </div>
+                    <a class="icon-container" href="#">
+                        <img class="footer-logo" src="./svgs/header/logo.svg" />
+                    </a>
+                </div>
+                <hr />
+                <div class="copyright-container">
+                    <p>Copyright &copy 2021. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <script src="./scripts/intersectionObserver.js"></script>
+    <script src="./scripts/color-scheme.js"></script>
+    <script src="./scripts/carousel.js"></script>
+    <script src="./scripts/dropdown-menus.js"></script>
+</html>

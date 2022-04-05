@@ -1,0 +1,102 @@
+.about-me {
+    margin-top: 0;
+}
+
+.about-me-container {
+    text-align: center;
+    margin: 1.6rem 0rem;
+}
+
+.about-me-margin > * {
+    margin-bottom: 6.4rem;
+}
+
+.about-me-margin > div {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-user {
+    width: 9.6rem;
+    margin-bottom: 0;
+}
+
+.title-margin {
+    margin-bottom: 12.8rem;
+}
+
+.presentation {
+    opacity: 0.75;
+    font-style: italic;
+}
+
+.hyperlink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 1.6rem;
+}
+
+.hyperlink-text {
+    margin-right: 0.4rem;
+    color: #0078d7 !important;
+}
+
+.hyperlink-text:hover {
+    text-decoration: underline;
+}
+
+.hyperlink-arrow {
+    width: 2.4rem !important;
+    margin-top: 0.2rem;
+    height: 4rem !important;
+}
+
+.span-bold {
+    font-weight: bold;
+}
+
+.things-about-me {
+    margin-bottom: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2.4rem;
+}
+
+.about-me-icon {
+    width: 16rem;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+@media screen and (min-width: 1024px) {
+    .about-me-margin > * {
+        margin-bottom: 3.2rem;
+    }
+
+    .about-me-user {
+        width: 4.8rem;
+        margin: 0;
+    }
+
+    .title-margin {
+        margin-bottom: 6.4rem;
+    }
+
+    .presentation {
+        width: 50vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hyperlink-arrow {
+        width: 1.2rem !important;
+    }
+
+    .about-me-icon {
+        width: 6.4rem;
+    }
+}

@@ -1,0 +1,228 @@
+.career > * {
+    margin-bottom: 3.2rem;
+}
+
+.career img {
+    width: 100%;
+}
+
+.careers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6.4rem;
+}
+
+.careers > * {
+    flex-basis: 55rem;
+    margin-bottom: 3.2rem;
+    flex-grow: 1;
+}
+
+.description-container > * {
+    margin-bottom: 3.2rem;
+}
+
+.paragraph {
+    opacity: 0.75;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.certificate-link-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.certificate-link {
+    color: #0078d7 !important;
+    text-decoration: none;
+    margin: 3.2rem 0.8rem;
+    font-size: 3.2rem;
+}
+
+.certificate-link:hover {
+    text-decoration: underline;
+}
+
+.career-borderless {
+    border: none;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.characteristics-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2.4rem;
+}
+
+.career-icons {
+    width: 9.6rem !important;
+}
+
+.dividing-line {
+    margin: 0;
+    margin-bottom: 4rem;
+    border-width: 2px;
+}
+
+.desktop-image {
+    display: none;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.career-technologies {
+    height: 20rem !important;
+    margin-bottom: 6.4rem;
+}
+
+#career-dropdowns {
+    margin-bottom: 0;
+    padding: 3.2rem 0rem;
+    background-color: #3d3d3d;
+    position: relative;
+}
+
+#career-dropdowns > h2 {
+    margin: 0% 10%;
+}
+
+#career-dropdowns > img {
+    width: 3.2rem !important;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2.5%;
+}
+
+.toggle-display {
+    display: block !important;
+}
+
+#dropdown-container {
+    background-color: #3d3d3d;
+    display: none;
+}
+
+#dropdown-container > * {
+    margin-top: 3.2rem;
+}
+
+#dropdown-container > img {
+    width: 32rem !important;
+}
+
+.unordered-lists {
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.dot {
+    position: absolute;
+    background-color: #0078d7;
+    border-radius: 50%;
+    width: 2.4rem;
+    height: 2.4rem;
+    left: 5%;
+}
+
+.one-line-dot {
+    top: 40%;
+}
+
+.two-lines-dot {
+    top: 28%;
+}
+
+.three-lines-dot {
+    top: 22%;
+}
+
+.career-dropdowns-container {
+    display: block;
+}
+
+@media screen and (min-width: 1024px) {
+    .career img {
+        width: 42%;
+    }
+
+    .career-icons {
+        width: 6.4rem !important;
+    }
+
+    .mobile-image {
+        display: none;
+    }
+
+    .desktop-image {
+        display: block;
+    }
+
+    .career-technologies {
+        height: 8rem !important;
+    }
+
+    #career-dropdowns {
+        padding: 1.6rem 0rem;
+        margin: 0 !important;
+    }
+
+    #down-arrow {
+        display: none;
+    }
+
+    #dropdown-container {
+        display: block;
+    }
+
+    #dropdown-container > img {
+        width: 12rem !important;
+    }
+
+    .dot {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+
+    .center {
+        flex-direction: row;
+    }
+
+    .certificate-link {
+        font-size: 2rem;
+        margin: 0 0.4rem;
+    }
+
+    .career-link {
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        font-weight: 400;
+        color: #0078d7 !important;
+        text-decoration: none;
+    }
+
+    .career-link:hover {
+        text-decoration: underline;
+    }
+
+    .margin-8 {
+        margin: 0.8rem;
+    }
+}

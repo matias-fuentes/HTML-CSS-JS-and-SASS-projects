@@ -1,0 +1,288 @@
+.header-container {
+    width: 100vw;
+    height: 16rem;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+
+.header-divs-container {
+    height: 100%;
+    position: relative;
+}
+
+/* Mobile */
+
+.dropdown-div {
+    display: none;
+    transform: translateX(-100vw);
+    position: absolute;
+    width: 85vw;
+    height: 100vh;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.dropdown-div h2 {
+    height: 4.8rem;
+    display: flex;
+    align-items: center;
+    margin: 3rem 0rem 3rem 4.8rem;
+}
+
+.dropdown-div hr {
+    margin: 3rem 0rem;
+}
+
+.dropdown-header-container {
+    display: flex;
+    height: 16rem;
+    background-color: #0078d7;
+    align-items: center;
+    margin: 0rem;
+    margin-bottom: 3.6rem;
+}
+
+.dropdown-logo {
+    width: 9rem;
+    margin: 0rem 1.6rem 0rem 7.2rem;
+}
+
+.borderless-title {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+    height: 7.2rem;
+    display: flex;
+    align-items: center;
+    color: white !important;
+}
+
+.personal-information-container h2 {
+    width: 21rem;
+}
+
+.personal-information-container > div {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+
+.presentation-photo-container {
+    justify-content: center;
+}
+
+.presentation-photo {
+    width: 16rem;
+    border-radius: 50%;
+}
+
+.personal-information {
+    width: auto !important;
+    font-weight: 300;
+}
+
+.justified-settings {
+    display: flex;
+    align-items: center;
+}
+
+/* The switch (The box around the slider) */
+
+.switch-button {
+  position: relative;
+  display: inline-block;
+  width: 10rem;
+  height: 4.8rem;
+  margin-left: 6.4rem;
+}
+
+/* Hide default HTML checkbox */
+
+.switch-button input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #0078d7;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #0078d7;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(52px);
+}
+
+/* Rounded slider */
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.navigation-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation-container a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 4.2rem;
+    padding: 3rem 0rem 3rem 4.8rem;
+}
+
+.transparent-div {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0;
+    transition: all 1s;
+    display: none;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0;
+}
+
+/* Desktop */
+
+.logo {
+    height: 6rem;
+    display: none;
+}
+
+.header-elements-container {
+    height: 100%;
+    margin: 0vh 6vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-container {
+    height: 100%;
+    padding: 0rem 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container > img {
+    height: 9rem;
+}
+
+.icon-container {
+    height: 100%;
+    padding: 0rem 2.4rem;
+    cursor: pointer;
+}
+
+#navigation {
+    cursor: pointer;
+    display: none;
+    height: 100%;
+}
+
+#navigation a {
+    height: 100%;
+    margin: 0rem 2.4rem;
+    padding: 0rem 2.4rem;
+    outline: none;
+    text-decoration: none;
+}
+
+#navigation a:first-of-type {
+    margin-left: 0rem;
+}
+
+#navigation a:last-of-type {
+    margin-right: 0rem;
+}
+
+#navigation a:hover {
+    transition: all 0.5s;
+    background-color: #4f4f4f66;
+}
+
+#navigation a, .icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.current-section {
+    background-color: green;
+    width: auto;
+    justify-content: center;
+}
+
+#dark-mode {
+    height: 6.75rem;
+}
+
+@media screen and (min-width: 1200px) {
+    .header-container {
+        height: 9rem;
+    }
+
+    #navigation {
+        display: flex;
+    }
+
+    .menu-container {
+        display: none;
+    }
+
+    .dropdown-div {
+        display: none;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    #dark-mode {
+        height: 4rem;
+    }
+}
+
+.actual-section {
+    color: #0078d7 !important;
+}
