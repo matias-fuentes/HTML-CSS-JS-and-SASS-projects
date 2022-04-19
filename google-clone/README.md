@@ -3,6 +3,12 @@
 
 Design a front-end for Google Search, Google Image Search, and Google Advanced Search.
 
+A clone website of the Google search engine. Do absolutely all what you can do in your default Google search webpage, but with our own clone.
+
+Do search queries, use the "I'm Feeling Lucky" button, search for images only, and do advanced search queries! All functional!
+
+You won't note the difference!
+
 ## Background
 
 Recall from lecture that we can create an HTML form using a `<form>` tag and can add `<input>` tags to create input fields for that form. Later in the course, we'll see how to write web applications that can accept form data as input. For this project, we'll write forms that send data to an existing web server: in this case, Google's.
