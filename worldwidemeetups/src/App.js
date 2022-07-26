@@ -6,6 +6,8 @@ import FavoritesMeetups from './pages/FavoritesMeetups';
 import Layout from './components/layout/Layout';
 
 function App() {
+    document.title = 'Worldwide Meetups';
+
     return (
         <Layout>
             <Switch>
