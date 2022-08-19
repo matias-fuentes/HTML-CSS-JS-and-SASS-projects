@@ -26,4 +26,4 @@
 
 - Google Clone: https://github.com/matias-fuentes/GoogleClone
 
-- Refokus Challenge: https://github.com/matias-fuentes/RefokusChallenge
+- Refokus Challenge: https://github.com/matias-fuentes/Refokus-Challenge
