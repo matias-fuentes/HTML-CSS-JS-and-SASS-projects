@@ -24,6 +24,6 @@
 
 - Biography: https://github.com/matias-fuentes/Biography
 
-- Google Clone: https://github.com/matias-fuentes/GoogleClone
+- Google Clone: https://github.com/matias-fuentes/Google-Clone
 
 - Refokus Challenge: https://github.com/matias-fuentes/Refokus-Challenge
