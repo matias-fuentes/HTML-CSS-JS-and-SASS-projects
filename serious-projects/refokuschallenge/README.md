@@ -1,4 +1,4 @@
-# [Refokus Challenge](https://refokuschallenge.netlify.app/)
+# [Refokus Challenge](https://refokuschallenge.vercel.app/)
 
 Video Presentation: https://www.youtube.com/watch?v=iTsKAstZsGg
 

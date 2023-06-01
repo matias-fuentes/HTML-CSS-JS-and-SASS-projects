@@ -2,7 +2,7 @@
 
 ## URLs
 
-- WikiFood: https://cs50-wikifood.herokuapp.com/
+- WikiFood: https://cs50-wikifood.vercel.app/
 
 - NextEventer: https://nexteventer.vercel.app/
 
@@ -12,7 +12,7 @@
 
 - Google Clone: https://cs50-googleclone.netlify.app/
 
-- Refokus Challenge: https://refokuschallenge.netlify.app/
+- Refokus Challenge: https://refokuschallenge.vercel.app/
 
 ## Repositories
 
