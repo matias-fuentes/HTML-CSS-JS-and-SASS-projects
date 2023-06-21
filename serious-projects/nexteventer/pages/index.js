@@ -10,10 +10,7 @@ export default function HomePage(props) {
     const layout = (
         <Fragment>
             <Head>
-                <meta
-                    name="description"
-                    content="Find a lot of great events that allow you to evolve..."
-                />
+                <meta name='description' content='Find a lot of great events that allow you to evolve...' />
             </Head>
             <NewsletterRegistration />
         </Fragment>
@@ -23,10 +20,7 @@ export default function HomePage(props) {
         return (
             <Fragment>
                 {layout}
-                <ErrorAlert>
-                    An error has occurred while trying to fetch the events!
-                    Please, try again.
-                </ErrorAlert>
+                <ErrorAlert>An error has occurred while trying to fetch the events! Please, try again.</ErrorAlert>
             </Fragment>
         );
     }

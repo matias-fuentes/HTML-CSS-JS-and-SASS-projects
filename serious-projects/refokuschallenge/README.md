@@ -1,21 +1,11 @@
-# [Refokus Challenge](https://refokuschallenge.vercel.app/)
+# [Refokus Challenge](https://refokuschallenge.vercel.app)
 
-Video Presentation: https://www.youtube.com/watch?v=iTsKAstZsGg
+WEBPAGE: https://refokuschallenge.vercel.app
 
-For this challenge, I created two tools: a filter tool, and a filler tool.
+VIDEO PRESENTATION: https://www.youtube.com/watch?v=iTsKAstZsGg
 
-With the filter tool, you'll be able to search and filter by your favourite Pokémons (yes, those lovely creatures of
-your childhood). Search for ANY (and when I mean ANY, I mean ANY) Pokémon that you want, and filter by its stats,
-combining them in any crazy order that you can imagine!
+## Description
 
-And with the filler tool, you can quote practically any company stock that you want! And of course, get all the details
-about it.
+A website featuring two powerful tools: the Filter Tool and the Filler Tool. With the Filter Tool, you can navigate through an extensive Pokédex, filtering and sorting Pokémon based on various criteria. The Filler Tool allows you to quote any company stock, providing valuable insights and information to aid your investment decisions.
 
-## Privacy
-
-Due to the nature of the confidentiality of the application processes, and of course for a matter of respect and
-morality, I'm not able to show the coding challenge exercises that the company sent to me, so no details or links
-regarding the coding challenge at all.
-
-However, what I can really do it's just show what I did, which is precisely what I'm doing in this repository. Hope you
-enjoy it! :).
+![RefokusChallenge preview](https://github.com/matias-fuentes/RefokusChallenge/assets/70669575/20d0f957-e26f-45bf-8e53-58be0714569a)

@@ -1,102 +1,195 @@
+.gallery {
+  height: auto;
+  padding-top: 90px;
+  box-sizing: border-box;
+  margin: 0rem;
+}
+
+.blurred-background {
+  width: 100%;
+  height: 66.6vh;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  transition: all 0.5s;
+  display: none;
+}
+
+.carousel-container {
+  height: auto;
+  position: relative;
+  margin: 7rem 0rem 6.4rem 0rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.images-carousel-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.images-carousel-container > img {
+  width: 100%;
+}
+
+.arrow-properties {
+  width: 97px;
+  height: 195px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  background-color: #4f4f4f66;
+}
+
+.arrow-properties:hover {
+  transition: all 0.25s;
+  transform: translateY(-50%) scale(1.25);
+  cursor: pointer;
+}
+
+.arrow-left {
+  left: 3%;
+}
+
+.arrow-right {
+  right: 3%;
+}
+
 .about-me {
-    margin-top: 0;
+  margin-top: 0;
+}
+
+.about-me-description {
+  display: block;
+  text-align: justify;
+}
+
+.about-me-desc-bText {
+  color: rgb(224, 224, 224);
 }
 
 .about-me-container {
-    text-align: center;
-    margin: 1.6rem 0rem;
+  text-align: center;
+  margin: 1.6rem 0rem;
 }
 
 .about-me-margin > * {
-    margin-bottom: 6.4rem;
+  margin-bottom: 4.8rem;
 }
 
 .about-me-margin > div {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .about-me-user {
-    width: 9.6rem;
-    margin-bottom: 0;
+  width: 9.6rem;
+  margin-bottom: 0;
 }
 
 .title-margin {
-    margin-bottom: 12.8rem;
+  margin-bottom: 6.4rem;
 }
 
 .presentation {
-    opacity: 0.75;
-    font-style: italic;
+  opacity: 0.75;
+  font-style: italic;
+  text-align: justify;
 }
 
 .hyperlink {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    height: 1.6rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  height: 1.6rem;
 }
 
 .hyperlink-text {
-    margin-right: 0.4rem;
-    color: #0078d7 !important;
+  margin-right: 0.4rem;
+  color: #0078d7 !important;
 }
 
 .hyperlink-text:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .hyperlink-arrow {
-    width: 2.4rem !important;
-    margin-top: 0.2rem;
-    height: 4rem !important;
+  width: 2.4rem !important;
+  margin-top: 0.2rem;
+  height: 4rem !important;
 }
 
 .span-bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .things-about-me {
-    margin-bottom: 1.6rem;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 2.4rem;
+  margin-bottom: 1.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2.4rem;
 }
 
 .about-me-icon {
-    width: 16rem;
+  width: 16rem;
 }
 
 .flex-direction-column {
-    flex-direction: column;
+  flex-direction: column;
 }
 
 @media screen and (min-width: 1024px) {
-    .about-me-margin > * {
-        margin-bottom: 3.2rem;
-    }
+  .gallery {
+    margin-bottom: 3.2rem;
+  }
 
-    .about-me-user {
-        width: 4.8rem;
-        margin: 0;
-    }
+  .blurred-background {
+    display: block;
+  }
 
-    .title-margin {
-        margin-bottom: 6.4rem;
-    }
+  .carousel-container {
+    margin: 0rem 0rem 3.2rem 0rem;
+    height: 66.6vh;
+  }
 
-    .presentation {
-        width: 50vw;
-        margin-left: auto;
-        margin-right: auto;
-    }
+  .images-carousel-container {
+    margin-bottom: 0;
+  }
 
-    .hyperlink-arrow {
-        width: 1.2rem !important;
-    }
+  .images-carousel-container > img {
+    height: 100%;
+    width: auto;
+  }
 
-    .about-me-icon {
-        width: 6.4rem;
-    }
+  .about-me-margin > * {
+    margin-bottom: 2.4rem;
+  }
+
+  .about-me-user {
+    width: 4.8rem;
+    margin: 0;
+  }
+
+  .title-margin {
+    margin-bottom: 3.2rem;
+  }
+
+  .presentation {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hyperlink-arrow {
+    width: 1.2rem !important;
+  }
+
+  .about-me-icon {
+    width: 6.4rem;
+  }
 }

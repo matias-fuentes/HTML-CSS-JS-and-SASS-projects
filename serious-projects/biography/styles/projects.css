@@ -1,0 +1,100 @@
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-carousel {
+  height: auto;
+  width: 100vw;
+}
+
+.projects-carousel > .images-carousel-container {
+  width: 100%;
+}
+
+.projects-carousel > .images-carousel-container > img {
+  width: 100%;
+}
+
+.projects-carousel > .images-carousel-container > div {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box;
+  display: flex;
+  padding: 3.2rem;
+  transition: all 0.25s;
+  display: flex;
+  background-color: rgb(0, 0, 0, 0.75);
+}
+
+.projects-carousel > .images-carousel-container > div > div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 3.2rem;
+}
+
+.projects-carousel > .images-carousel-container > div > div > h3 {
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+}
+
+.projects-carousel > .images-carousel-container > div > div > p {
+  width: 60rem;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  text-align: center;
+}
+
+.project-btn {
+  cursor: pointer;
+  width: 400px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 1024px) and (orientation: landscape) {
+  .projects-carousel {
+    height: 75vh;
+    width: 'auto';
+  }
+
+  .projects-carousel > .images-carousel-container > div > div > p {
+    font-size: 1.6rem;
+  }
+
+  .project-btn {
+    height: 0px;
+  }
+
+  .project-btn > h2 {
+    font-size: 2.4rem !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .projects-carousel {
+    width: 140rem;
+  }
+
+  .projects-carousel > .images-carousel-container > div {
+    background-color: rgb(0, 0, 0, 0);
+  }
+
+  .projects-carousel > .images-carousel-container > div:hover {
+    background-color: rgb(0, 0, 0, 0.75);
+  }
+
+  .projects-carousel > .images-carousel-container > div > div {
+    display: none;
+  }
+
+  .project-btn {
+    width: 300px;
+    height: 40px;
+  }
+}

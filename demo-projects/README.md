@@ -2,24 +2,28 @@
 
 ## URLs
 
-- Worldwide Meetups: https://worldwidemeetups.herokuapp.com/
+-   Worldwide Meetups: https://worldwidemeetups.vercel.app
 
-- Animal Trivia: https://animaltrivia.netlify.app/
+-   Animal Trivia: https://animaltrivia.netlify.app
 
-- DragProject: https://dragproject.herokuapp.com/
+-   DragProject: https://dragproject.vercel.app
 
-- Birthie: https://birthie.herokuapp.com/
+-   Birthie: https://birthie.vercel.app
 
-- FlashTask: https://flashtask.herokuapp.com/
+-   FlashTask: https://flashtask.vercel.app
+
+-   Crudemon: https://crudemon.vercel.app
 
 ## Repositories
 
-- Worldwide Meetups: https://github.com/matias-fuentes/WorldwideMeetups
+-   Worldwide Meetups: https://github.com/matias-fuentes/WorldwideMeetups
 
-- Animal Trivia: https://github.com/matias-fuentes/AnimalTrivia
+-   Animal Trivia: https://github.com/matias-fuentes/AnimalTrivia
 
-- DragProject: https://github.com/matias-fuentes/DragProject
+-   DragProject: https://github.com/matias-fuentes/DragProject
 
-- Birthie: https://github.com/matias-fuentes/Birthie
+-   Birthie: https://github.com/matias-fuentes/Birthie
 
-- FlashTask: https://github.com/matias-fuentes/FlashTask
+-   FlashTask: https://github.com/matias-fuentes/FlashTask
+
+-   Crudemon: https://github.com/matias-fuentes/Crudemon

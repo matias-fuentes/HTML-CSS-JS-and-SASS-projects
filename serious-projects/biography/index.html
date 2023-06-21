@@ -1,868 +1,1013 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <script
-            src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"
-        ></script>
-        <link rel="stylesheet" href="./styles/normalize.css" />
-        <link rel="stylesheet" href="./styles/globals.css" />
-        <link rel="stylesheet" href="./styles/header.css" />
-        <link rel="stylesheet" href="./styles/gallery.css" />
-        <link rel="stylesheet" href="./styles/about-me.css" />
-        <link rel="stylesheet" href="./styles/career.css" />
-        <link rel="stylesheet" href="./styles/technologies.css" />
-        <link rel="stylesheet" href="./styles/footer.css" />
-        <link rel="icon" href="./svgs/header/logo.svg" />
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/about-me.css" />
+    <link rel="stylesheet" href="./styles/career.css" />
+    <link rel="stylesheet" href="./styles/technologies.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/projects.css" />
+    <link rel="icon" href="./images/header/logo.svg" />
 
-        <title>Biography</title>
-    </head>
+    <title>Matías Fuentes</title>
+  </head>
 
+  <body>
     <header class="header-container">
-        <div class="header-divs-container">
-            <!-- Mobile -->
-            <div class="dropdown-div">
-                <div class="dropdown-header-container">
-                    <img
-                        class="dropdown-logo"
-                        src="./svgs/header/dropdown-logo.svg"
-                        alt="Logo"
-                    />
-                    <h1 class="borderless-title">Biography</h1>
-                </div>
-                <div class="personal-information-container">
-                    <div class="presentation-photo-container">
-                        <img
-                            class="presentation-photo"
-                            src="./images/presentation-photo.webp"
-                            alt="Presentation photo"
-                        />
-                    </div>
-                    <div>
-                        <h2>Name:</h2>
-                        <h2 class="personal-information">Matías Fuentes</h2>
-                    </div>
-                    <div>
-                        <h2>Birth:</h2>
-                        <h2 class="personal-information">
-                            18th December, 2002
-                        </h2>
-                    </div>
-                    <div>
-                        <h2>Age:</h2>
-                        <h2 class="personal-information">18</h2>
-                    </div>
-                    <div>
-                        <h2>Address:</h2>
-                        <h2 class="personal-information">
-                            Sol de Mayo 30, Rosario
-                        </h2>
-                    </div>
-                </div>
-
-                <hr />
-                <div class="justified-settings">
-                    <h2>Dark Mode</h2>
-                    <label class="switch-button">
-                        <input type="checkbox" />
-                        <span class="slider round"></span>
-                    </label>
-                </div>
-                <hr />
-
-                <div class="navigation-container">
-                    <a href="#gallery">Gallery</a>
-                    <a href="#about-me">About Me</a>
-                    <a href="#career">Career</a>
-                    <a href="#technologies">Technologies</a>
-                    <a href="#contact">Contact</a>
-                </div>
+      <div class="header-divs-container">
+        <!-- Mobile -->
+        <div class="dropdown-div">
+          <div class="dropdown-header-container">
+            <img class="dropdown-logo" src="./images/header/dropdown-logo.svg" alt="Logo" />
+            <h1 class="borderless-title">Biography</h1>
+          </div>
+          <div class="personal-information-container">
+            <div class="presentation-photo-container">
+              <img class="presentation-photo" src="./images/presentation-photo.webp" alt="Presentation photo" />
             </div>
-            <div class="transparent-div"></div>
-
-            <!-- Desktop -->
-            <div class="header-elements-container">
-                <div class="menu-container">
-                    <img id="mode-menu" alt="Menu" />
-                </div>
-                <a class="icon-container" href="./index.html">
-                    <img class="logo" src="./svgs/header/logo.svg" alt="Logo" />
-                </a>
-                <nav id="navigation">
-                    <a href="#gallery">Gallery</a>
-                    <a href="#about-me">About Me</a>
-                    <a href="#technologies">Technologies</a>
-                    <a href="#career">Career</a>
-                </nav>
-                <div class="icon-container">
-                    <img id="dark-mode" alt="Dark mode" />
-                </div>
+            <div class="personal-data-container">
+              <div>
+                <h2>Name:</h2>
+                <h2 class="personal-information">Matías Fuentes</h2>
+              </div>
+              <div>
+                <h2>Birth:</h2>
+                <h2 class="personal-information">18th December, 2002</h2>
+              </div>
             </div>
+          </div>
+
+          <hr />
+          <div class="justified-settings">
+            <h2>Dark Mode</h2>
+            <label class="switch-button">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </div>
+          <hr />
+
+          <div class="navigation-container">
+            <a href="#about-me">About Me</a>
+            <a href="#career">Career</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#projects">Projects</a>
+          </div>
         </div>
+        <div class="transparent-div"></div>
+
+        <!-- Desktop -->
+        <div class="header-elements-container">
+          <div class="menu-container">
+            <img id="mode-menu" alt="Menu" />
+          </div>
+          <a class="icon-container" href="./index.html">
+            <img class="logo" src="./images/header/logo.svg" alt="Logo" />
+          </a>
+          <nav id="navigation">
+            <a href="#about-me">About Me</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#career">Career</a>
+            <a href="#projects">Projects</a>
+          </nav>
+          <div class="icon-container">
+            <img id="dark-mode" alt="Dark mode" />
+          </div>
+        </div>
+      </div>
     </header>
 
-    <body>
-        <section class="gallery">
-            <!-- .anchor's styles are stored in globals -->
-            <div id="gallery" class="anchor"></div>
-            <div class="blurred-background"></div>
-            <div class="carousel-container">
-                <input
-                    class="arrow-properties arrow-left"
-                    type="image"
-                    src="./svgs/gallery/left-arrow.svg"
-                    alt="Arrow left"
-                />
-                <input
-                    class="arrow-properties arrow-right"
-                    type="image"
-                    src="./svgs/gallery/right-arrow.svg"
-                    alt="Arrow right"
-                />
-                <div class="images-carousel-container">
-                    <img alt="Photo 10" />
-                </div>
-                <div class="images-carousel-container">
-                    <img alt="Photo 1" />
-                </div>
-                <div class="images-carousel-container">
-                    <img alt="Photo 2" />
-                </div>
-                <div class="images-carousel-container">
-                    <img alt="Photo 3" />
-                </div>
-                <div class="images-carousel-container">
-                    <img alt="Photo 4" />
-                </div>
-                <div class="images-carousel-container">
-                    <img alt="Photo 5" />
-                </div>
-                <div class="images-carousel-container">
-                    <img alt="Photo 6" />
-                </div>
-                <div class="images-carousel-container">
-                    <img alt="Photo 7" />
-                </div>
-                <div class="images-carousel-container">
-                    <img alt="Photo 8" />
-                </div>
-                <div class="images-carousel-container">
-                    <img alt="Photo 9" />
-                </div>
+    <div class="gallery">
+      <!-- .anchor's styles are stored in globals -->
+      <div id="about-me" class="anchor"></div>
+      <div class="blurred-background"></div>
+      <div class="carousel-container" id="about-me-carousel">
+        <input
+          class="arrow-properties arrow-left"
+          type="image"
+          src="./images/gallery/left-arrow.svg"
+          alt="Arrow left"
+          id="about-me-arrow-left"
+        />
+        <input
+          class="arrow-properties arrow-right"
+          type="image"
+          src="./images/gallery/right-arrow.svg"
+          alt="Arrow right"
+          id="about-me-arrow-right"
+        />
+        <div class="images-carousel-container">
+          <img alt="Photo 10" />
+        </div>
+        <div class="images-carousel-container">
+          <img alt="Photo 1" />
+        </div>
+        <div class="images-carousel-container">
+          <img alt="Photo 2" />
+        </div>
+        <div class="images-carousel-container">
+          <img alt="Photo 3" />
+        </div>
+        <div class="images-carousel-container">
+          <img alt="Photo 4" />
+        </div>
+        <div class="images-carousel-container">
+          <img alt="Photo 5" />
+        </div>
+        <div class="images-carousel-container">
+          <img alt="Photo 6" />
+        </div>
+        <div class="images-carousel-container">
+          <img alt="Photo 7" />
+        </div>
+        <div class="images-carousel-container">
+          <img alt="Photo 8" />
+        </div>
+        <div class="images-carousel-container">
+          <img alt="Photo 9" />
+        </div>
+      </div>
+
+      <section id="about-me" class="layout">
+        <div class="about-me-container">
+          <div class="about-me-margin">
+            <img class="about-me-user" src="./images/about-me/user.svg" alt="User icon" />
+            <div class="title-margin">
+              <h1>About Me</h1>
             </div>
-        </section>
-
-        <section class="about-me">
-            <!-- .anchor's styles are stored in globals -->
-            <div id="about-me" class="anchor"></div>
-            <div class="about-me-container">
-                <div class="about-me-margin">
-                    <img
-                        class="about-me-user"
-                        src="./svgs/AboutMe/user.svg"
-                        alt="User icon"
-                    />
-                    <div class="title-margin">
-                        <h1>About Me</h1>
-                    </div>
-                    <!-- .subtitle-container's styles are stored in globals -->
-                    <div class="subtitle-container">
-                        <h2>Hello world, here Matías Fuentes</h2>
-                    </div>
-                    <p class="presentation">
-                        Hello! Nice to meet you! I present myself, I'm Matías,
-                        an argentine young full-stack web developer, and
-                        THIS is part of one of my projects of my Harvard career!
-                        On this occasion they have given us the challenge of
-                        making one of our first pages; an autobiography! But,
-                        without feeling entirely satisfied, I have decided to go
-                        a little further, in order to turn it into part of my
-                        own portfolio! Like a kind of CV, but with style~
-                    </p>
-                    <div>
-                        <p>
-                            Well, here are some things
-                            <span class="span-bold">about me:</span>
-                        </p>
-                    </div>
-                </div>
+            <!-- .subtitle-container's styles are stored in globals -->
+            <div class="subtitle-container">
+              <h2>Hello world, here Matías Fuentes</h2>
             </div>
-
-            <!-- .characteristics's styles are stored in globals -->
-            <div class="things-about-me">
-                <div class="characteristics">
-                    <img
-                        class="about-me-icon"
-                        src="./svgs/AboutMe/geek.svg"
-                        alt="Geek icon"
-                    />
-                    <h2>Geek</h2>
-                    <p class="flex-direction-column">
-                        I have been in front of a computer since I was just
-                        four, and since then, I just simply could not stop!
-                        <b>
-                            It was like my place where I could just be myself,
-                        </b>
-                        create, and do all the things that I love. I've been
-                        always interested in technology in general; from
-                        something so basic as a simple little bit, to something
-                        so big and complex as an, I don't know, an Artificial
-                        Intelligence with a deep neural network to make cars
-                        full self-driving. Things like that drives me crazy! And
-                        precisely by things like that, it's why I just simply
-                        love being a programmer &lt3, and have planned to learn
-                        and apply everything as I can from this world.
-                    </p>
-                </div>
-                <div class="characteristics">
-                    <img
-                        class="about-me-icon"
-                        src="./svgs/AboutMe/big-dreamer.svg"
-                        alt="Big Dreamer icon"
-                    />
-                    <h2>Big Dreamer</h2>
-                    <p class="flex-direction-column">
-                        Bill Gates, Elon Musk, Linus Torvalds... Those people
-                        are just great references for me, and helped me to reach
-                        where I'm actually are. People like them are the reason
-                        why I always wake up in the morning, make me some nice
-                        breakfast, and... just type. Type, and type, and type.
-                        Lovely types! Trying always to perform, to push myself,
-                        to learn something new... And with that, at the end of
-                        the day, be able to create. To contribute. And to make
-                        something that, hopefully, one day, changes the world.
-                        To better. Hopefully one day my types reaches and helps
-                        to the people who more needs them.
-                        <b>
-                            I have big dreams. And I'm determined to accomplish
-                            them.
-                        </b>
-                    </p>
-                </div>
-                <div class="characteristics">
-                    <img
-                        class="about-me-icon"
-                        src="./svgs/AboutMe/proactive.svg"
-                        alt="Proactive icon"
-                    />
-                    <h2>Proactive</h2>
-                    <p class="flex-direction-column">
-                        I love have control over things. Take the lead and work
-                        as a team!
-                        <b>
-                            And make sure that everything, from the starting
-                            point, to the production of whatever I'm working on,
-                            works. And works well.
-                        </b>
-                        The half-done work are not enough for me, and even more
-                        important, not enough to satisfy what the client needs.
-                        However, I don't consider myself a perfectionist, I know
-                        my limits. But I really like the well-done work and be
-                        part of it, in every aspect. That's one of the reasons
-                        why I've choose on being a full-stack web developer!
-                    </p>
-                </div>
-                <div class="characteristics">
-                    <img
-                        class="about-me-icon"
-                        src="./svgs/AboutMe/competitive.svg"
-                        alt="Competitive icon"
-                    />
-                    <h2>Competitive</h2>
-                    <p class="flex-direction-column">
-                        Hah! Yeah! I love being competitive and be part of
-                        tournaments when I'm playing whatever I'm playing,
-                        specially in sports and videogames! And, ultimately,
-                        I've been interested in take part of a Game Jam. Seeing
-                        how people manage to put out something soo complex, and,
-                        at the same time, coherent and fun as a game could be,
-                        it's something that it should be amazing to take part of
-                        it.
-                        <b>
-                            Work as a team against other very capable people to,
-                            at the end of the day with all the effort and stress
-                            finally came up with something fun, enjoyable, and
-                            playable... it's totally worth it.
-                        </b>
-                    </p>
-                </div>
-                <div class="characteristics">
-                    <img
-                        class="about-me-icon"
-                        src="./svgs/AboutMe/self-improvement.svg"
-                        alt="Self-Improvement icon"
-                    />
-                    <h2>Self-Improvement</h2>
-                    <p class="flex-direction-column">
-                        I always try to perform myself and refine my
-                        personality, in order to be a better person in every
-                        aspect of my life. When things are not going as well as
-                        I would like, often I try to figure it out by myself
-                        what I'm doing wrong, and what can I do about it. If I
-                        can't handle it by myself, I turn to the help on those
-                        that I trust, and that I know that they can give me a
-                        hand. And if someone is bothered by something that I've
-                        done or whatever,
-                        <b>
-                            I always listen to them, apologize, and reconcile,
-                            trying since then, to have a better behavior and
-                            that we get along even better.
-                        </b>
-                    </p>
-                </div>
-                <div class="characteristics">
-                    <img
-                        class="about-me-icon"
-                        src="./svgs/AboutMe/rational.svg"
-                        alt="Rational icon"
-                    />
-                    <h2>Rational & Objective</h2>
-                    <p class="flex-direction-column">
-                        Something characteristic about me is that I try to face
-                        problems with the greatest possible rationality and
-                        objectivity. I think is the best approach to solve
-                        different kind of problems. Even more so in something so
-                        methodical and aligned with matemathics such as it could
-                        be the Computer Science. And, besides that, it's a kind
-                        of mentality approach that I love to apply on.
-                        Everything that has to do with logic and exact sciences,
-                        I'm just fascinated.
-                        <b>
-                            For the sake of the work, every time I discern my
-                            subjectivity from my objectivity, so that it doesn't
-                            interfer.
-                        </b>
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section>
-            <!-- .anchor & .text-center's styles are stored in globals -->
-            <div id="technologies" class="anchor"></div>
-            <div class="text-center">
-                <h1>Technologies</h1>
-            </div>
-            <div class="technologies-container">
-                <div class="technology-container">
-                    <div class="front-end-langs-container">
-                        <img src="./images/technologies/c.webp" />
-                    </div>
-                    <div>
-                        <h2>C</h2>
-                        <hr />
-                        <p>
-                            C was the first language that I've learned. I've learned it in my Harvard career. In there I've learned all the basics of programming, and a lot of low-level concepts, such as addresses, pointers, memory laout, data structures, linked lists, binary trees, etc.
-                        </p>
-
-                        <a
-                            class="button-container project"
-                            href="https://github.com/matias-fuentes/C-projects"
-                        >
-                            <h2>Projects</h2>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/technologies/bold-right-arrow.svg"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div class="technology-container">
-                    <div>
-                        <img src="./images/technologies/html-css-js.webp" />
-                        <img src="./images/technologies/sass.webp" />
-                    </div>
-                    <div>
-                        <h2>HTML, CSS, JS & SASS</h2>
-                        <hr />
-                        <p>
-                            Of course I know all the basics, and these technologies began to be part of my day to day. Also I've learned SASS in an Udemy course that I'm doing about PHP. You can check it by your own by seeing the source code of this page! Or, by my projects:
-                        </p>
-
-                        <a
-                            class="button-container project"
-                            href="https://github.com/matias-fuentes/HTML-CSS-JS-and-SASS-projects"
-                        >
-                            <h2>Projects</h2>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/technologies/bold-right-arrow.svg"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div class="technology-container">
-                    <div>
-                        <img src="./images/technologies/python.webp" />
-                    </div>
-                    <div>
-                        <h2>Python</h2>
-                        <hr />
-                        <p>
-                            One of my strong points, is definitely Python. Here is where I've started implementing more complex and dynamic pages with databases. Taught by Harvard, with Python I've done one of my proudest projects (in fact, the final project); <a href="https://cs50-wikifood.herokuapp.com/" class="career-link">WikiFood</a>.
-                        </p>
-
-                        <a
-                            class="button-container project"
-                            href="https://github.com/matias-fuentes/Python-projects"
-                        >
-                            <h2>Projects</h2>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/technologies/bold-right-arrow.svg"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div class="technology-container">
-                    <div>
-                        <img id="next-svg" src="./images/technologies/next.js.svg" />
-                    </div>
-                    <div>
-                        <h2>Full Stack Framework (Next.JS)</h2>
-                        <hr />
-                        <p>
-                            Next is definitely my favourite framework. With it I have been able to create many of very complex projects becoming my primary work tool, since scratch, until deployment and production. Taught in <a class="career-link" href="https://www.udemy.com/course/nextjs-react-the-complete-guide/">Udemy</a> by Maximilian Schwarzmüller, and already completed.
-                        </p>
-
-                        <a
-                            class="button-container project"
-                            href="https://github.com/matias-fuentes/Next-projects"
-                        >
-                            <h2>Projects</h2>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/technologies/bold-right-arrow.svg"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div class="technology-container">
-                    <div>
-                        <img src="./images/technologies/react.webp" />
-                    </div>
-                    <div>
-                        <h2>Frontend Framework (React)</h2>
-                        <hr />
-                        <p>
-                            React in conjunction with Next, have become in my favourites and, actually, main frameworks to develop web pages. With a reactive feedback, and taught in <a class="career-link" href="https://www.udemy.com/course/nextjs-react-the-complete-guide/">Udemy</a> by one of the teachers of <a class="career-link" href="https://www.youtube.com/c/academind">Academind</a>, I've been able to learn one of the best and more demanded frameworks that actually are on the market~
-                        </p>
-
-                        <a
-                            class="button-container project"
-                            href="https://github.com/matias-fuentes/React-projects"
-                        >
-                            <h2>Projects</h2>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/technologies/bold-right-arrow.svg"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div class="technology-container">
-                    <div>
-                        <img id="flask-svg" src="./images/technologies/flask.svg" />
-                    </div>
-                    <div>
-                        <h2>Backend Framework (Flask)</h2>
-                        <hr />
-                        <p>
-                            Flask was the first framework that I've learned. Also imparted by Harvard, and also used to create <a href="https://cs50-wikifood.herokuapp.com/" class="career-link">WikiFood</a>, I've learned that Flask is an excellent option if a traditional and a server-side web pages render is your approach. With its full and complete documentation, Flask becomes very useful!
-                        </p>
-
-                        <a
-                            class="button-container project"
-                            href="https://github.com/matias-fuentes/Flask-projects"
-                        >
-                            <h2>Projects</h2>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/technologies/bold-right-arrow.svg"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div class="technology-container">
-                    <div>
-                        <img src="./images/technologies/mysql.webp">
-                    </div>
-                    <div>
-                        <h2>SQL (SQLite, MySQL)</h2>
-                        <hr />
-                        <p>
-                            I've used sqlite3 with phpLiteAdmin for the Harvard career, and, when I least expected it, I realised that it was very easy and helpful to use them! Also, to deploy my apps now with a real database, I have to learn MySQL by my own, and, emigrate all my backend to it! Work hard, but, it was worth it!
-                        </p>
-
-                        <a
-                            class="button-container project"
-                            href="https://github.com/matias-fuentes/SQL-projects"
-                        >
-                            <h2>Projects</h2>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/technologies/bold-right-arrow.svg"
-                            />
-                        </a>
-                    </div>
-                </div>
-                <div class="technology-container">
-                    <div>
-                        <img src="./images/technologies/firebase.webp" />
-                    </div>
-                    <div>
-                        <h2>NoSQL (Firebase)</h2>
-                        <hr />
-                        <p>
-                            And finally, to get out a little bit of the box and try something new, I've learned how to use NoSQL, and... It was way easier than I thought. With an already prepared API, free plans, and a so intuitive dashboard, Firebase just rocks! And probably I'll use it more often than I've expected! 
-                        </p>
-
-                        <a
-                            class="button-container project"
-                            href="https://github.com/matias-fuentes/NoSQL-projects"
-                        >
-                            <h2>Projects</h2>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/technologies/bold-right-arrow.svg"
-                            />
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="career">
-            <!-- .anchor & .text-center's styles are stored in globals -->
-            <div id="career" class="anchor"></div>
-            <div class="text-center">
-                <h1>Career</h1>
-            </div>
-            <div class="careers">
-                <img src="./images/career/high-school-certificate.webp" />
-                <div class="description-container">
-                    <!-- .subtitle-container's styles are stored in globals -->
-                    <div class="subtitle-container">
-                        <h2>
-                            Bachelor at Economy and Administration at Santo
-                            Domingo Savio
-                        </h2>
-                    </div>
-                    <p class="paragraph">
-                        Here, at the Santo Domingo Savio high school, I've
-                        learned all what I know about economy and
-                        administration. I prefer this modality over humanity in
-                        big part due to the closeness with the numbers. Here,
-                        I've learned: matemathics analysis, accounting, design
-                        of organizations and process, micro and macroeconomy,
-                        costs, statistics, financial matemathics, production and
-                        services, taxes, economy structure, business finance,
-                        production management, control management, leadership
-                        and negotiation, strategic administration, global
-                        management strategies, investment projects, etc.
-                    </p>
-                    <!-- .characteristics's styles are stored in globals -->
-                    <div class="characteristics-container">
-                        <div class="characteristics">
-                            <div>
-                                <img
-                                    class="career-icons"
-                                    src="./svgs/career/hourglass.svg"
-                                    alt="Hourglass"
-                                />
-                            </div>
-                            <div>
-                                <h3>5 years</h3>
-                            </div>
-                        </div>
-                        <div class="characteristics">
-                            <div>
-                                <img
-                                    class="career-icons"
-                                    src="./svgs/career/map-pin.svg"
-                                    alt="Map pin"
-                                />
-                            </div>
-                            <div>
-                                <h3>
-                                    Don Bosco 10, Rosario, Santa Fe, Argentina
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="characteristics">
-                            <div>
-                                <img
-                                    class="career-icons"
-                                    src="./svgs/career/graduation-cap.svg"
-                                    alt="Graduation cap"
-                                />
-                            </div>
-                            <div>
-                                <h3>Graduated</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr />
-            <div class="careers">
-                <img
-                    class="mobile-image"
-                    src="./images/career/bigben-english-institute.webp"
-                />
-                <div class="half-page left-containers">
-                    <div class="description-container">
-                        <div>
-                            <h2>English at BigBen English Institute</h2>
-                        </div>
-                        <p class="paragraph">
-                            I've been here when I was a little younger for like,
-                            four years, and, it was amazing! They've teached me
-                            a lot of things that I actually know about the
-                            English language. I had to leave it due to the jump
-                            to high school, due to the little time available
-                            that I had I preferred to spend it with my friends,
-                            and, mainly, due to financial problems. If it hadn't
-                            been because I came to this institute, I probably
-                            never had the chance to study at Harvard, since
-                            everything is in English, so... I'm really in debt
-                            with them. Hopefully I can finish my last year, and
-                            get graduated!
-                        </p>
-                        <!-- .characteristics's styles are stored in globals -->
-                        <div class="characteristics-container">
-                            <div class="characteristics">
-                                <div>
-                                    <img
-                                        class="career-icons"
-                                        src="./svgs/career/hourglass.svg"
-                                        alt="Hourglass"
-                                    />
-                                </div>
-                                <div>
-                                    <h3>5 years</h3>
-                                </div>
-                            </div>
-                            <div class="characteristics">
-                                <div>
-                                    <img
-                                        class="career-icons"
-                                        src="./svgs/career/map-pin.svg"
-                                        alt="Map pin"
-                                    />
-                                </div>
-                                <div>
-                                    <h3>
-                                        Díaz Vélez 236, Rosario, Santa Fe,
-                                        Argentina
-                                    </h3>
-                                </div>
-                            </div>
-                            <div class="characteristics">
-                                <div>
-                                    <img
-                                        class="career-icons"
-                                        src="./svgs/career/graduation-cap.svg"
-                                        alt="Graduation cap"
-                                    />
-                                </div>
-                                <div>
-                                    <h3>Not graduated (4/5 years done)</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img
-                    class="desktop-image"
-                    src="./images/career/bigben-english-institute.webp"
-                />
-            </div>
-            <hr />
-            <div class="careers">
-                <img src="./images/career/react-next-course.webp" />
-                <div class="description-container">
-                    <!-- .subtitle-container's styles are stored in globals -->
-                    <div class="subtitle-container">
-                        <h2>
-                            React and Next.JS complete guide course at Academind
-                        </h2>
-                    </div>
-                    <p class="paragraph margin-8">
-                        The Next.js & React - The Complete Guide (incl. Two Paths!) full course, it's the bestselling course of React in Udemy, with almost 30k students who also took this course. Maximilian Schwarzmüller it's one of the teachers of Academind, an online YouTube academy for web programmers with almost 1M suscribers! Maximilian it's the best instructor I've ever had, and with his teachings I've been able to learn, absorb, and master the last technologies that the actual market demands. I wish I had met him before. However, this is only the first step to learn a wide range of languages and technologies, and, hopefully, learn with his teachings!
-                        <div class="certificate-link-container margin-8">
-                            <a class="certificate-link" href="https://www.udemy.com/certificate/UC-bb1a6577-6ab0-47c5-a8b1-3ed9a9b0c8b5/">
-                                Certificate Link
-                            </a>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/AboutMe/blue-right-arrow.svg"
-                            />
-                        </div>
-                    </p>
-                    <!-- .characteristics's styles are stored in globals -->
-                    <div class="characteristics-container">
-                        <div class="characteristics">
-                            <div>
-                                <img
-                                    class="career-icons"
-                                    src="./svgs/career/hourglass.svg"
-                                    alt="Hourglass"
-                                />
-                            </div>
-                            <div>
-                                <h3>3 months</h3>
-                            </div>
-                        </div>
-                        <div class="characteristics">
-                            <div>
-                                <img
-                                    class="career-icons"
-                                    src="./svgs/career/map-pin.svg"
-                                    alt="Map pin"
-                                />
-                            </div>
-                            <div>
-                                <h3>
-                                    Wherever you want (online)
-                                </h3>
-                            </div>
-                        </div>
-                        <div class="characteristics">
-                            <div>
-                                <img
-                                    class="career-icons"
-                                    src="./svgs/career/graduation-cap.svg"
-                                    alt="Graduation cap"
-                                />
-                            </div>
-                            <div>
-                                <h3>Graduated</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <hr />
-            <div class="careers career-borderless">
-                <img class="mobile-image" src="./images/career/cs50x.webp" />
-                <div class="half-page">
-                    <div class="description-container">
-                        <h2>Computer Science at Harvard University</h2>
-                    </div>
-                    <p class="paragraph center margin-8">
-                        Yep. I've studied at Harvard. And yes, it was rough.
-                        Very rough. Obviously I could not study in a
-                        presencial way (due to the Coronavirus, location,
-                        and, welp, money), but at least I can say that I
-                        fulfilled my wish of study in the university of my
-                        dreams. The notes, the videos, the projects, even
-                        the online classes!! It was incredible to be there
-                        and be part of the class! Despite the fact that the
-                        online classes didn't have the same essence and
-                        closeness that it would surely have if everything
-                        had been given in person, I learned. A lot. And take
-                        part of study groups, and... I don't know, the
-                        experience was simply enriching. In every way.
-                        <div class="certificate-link-container margin-8">
-                            <a class="certificate-link" href="https://certificates.cs50.io/8b4d4c22-8a13-4bf0-8bea-f610957f55a3.pdf?size=letter">
-                                Certificate Link
-                            </a>
-                            <img
-                                class="hyperlink-arrow"
-                                src="./svgs/AboutMe/blue-right-arrow.svg"
-                            />
-                        </div>
-                    </p>
-                    <!-- .characteristics's styles are stored in globals -->
-                    <div class="characteristics-container">
-                        <div class="characteristics">
-                            <div>
-                                <img
-                                    class="career-icons"
-                                    src="./svgs/career/hourglass.svg"
-                                    alt="Hourglass"
-                                />
-                            </div>
-                            <div class="flex-column">
-                                <h3>1 year</h3>
-                            </div>
-                        </div>
-                        <div class="characteristics">
-                            <div>
-                                <img
-                                    class="career-icons"
-                                    src="./svgs/career/map-pin.svg"
-                                    alt="Map pin"
-                                />
-                            </div>
-                            <div>
-                                <h3>Wherever you want (online)</h3>
-                            </div>
-                        </div>
-                        <div class="characteristics">
-                            <div>
-                                <img
-                                    class="career-icons"
-                                    src="./svgs/career/graduation-cap.svg"
-                                    alt="Graduation cap"
-                                />
-                            </div>
-                            <div>
-                                <h3>Graduated</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img class="desktop-image" src="./images/career/cs50x.webp">
-            </div>
-        </section>
-
-        <footer id="footer">
+            <p class="presentation">
+              Hello! Nice to meet you! I present myself, I'm Matías, a young argentine Full Stack Web Developer, and
+              THIS is part of one of my projects of my Harvard career! On this occasion they have given us the challenge
+              of making one of our first web pages; an autobiography! But, without feeling entirely satisfied, I decided
+              to go a little bit further, in order to turn it into part of my own portfolio! Like a kind of CV, but with
+              style~
+            </p>
             <div>
-                <div class="footer-title-container">
-                    <div>
-                        <h2 class="footer-title">Contact</h2>
-                        <div>
-                            <div class="contact-means">
-                                <img src="./svgs/footer/email.svg" />
-                                <h3>MatiasDamianFuentes@outlook.es</h3>
-                            </div>
-                            <div class="contact-means">
-                                <img src="./svgs/footer/phone.svg" />
-                                <h3>+49 176 59628041</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <h2 class="footer-title">Social Medias</h2>
-                        <nav class="footer-nav">
-                            <a
-                                href="https://github.com/matias-fuentes"
-                                >GitHub</a
-                            >
-                            <a
-                                href="https://www.linkedin.com/in/matías-fuentes-437414191/"
-                                >LinkedIn</a
-                            >
-                        </nav>
-                    </div>
-                    <a class="icon-container" href="#">
-                        <img class="footer-logo" src="./svgs/header/logo.svg" />
-                    </a>
-                </div>
-                <hr />
-                <div class="copyright-container">
-                    <p>Copyright &copy 2021. All rights reserved.</p>
-                </div>
+              <p>
+                Well, here are some things
+                <span class="span-bold">about me:</span>
+              </p>
             </div>
-        </footer>
-    </body>
+          </div>
+        </div>
 
-    <script src="./scripts/intersectionObserver.js"></script>
-    <script src="./scripts/color-scheme.js"></script>
-    <script src="./scripts/carousel.js"></script>
-    <script src="./scripts/dropdown-menus.js"></script>
+        <!-- .characteristics's styles are stored in globals -->
+        <div class="things-about-me">
+          <div class="characteristics">
+            <img class="about-me-icon" src="./images/about-me/leadership.svg" alt="Leadership icon" />
+            <h2>Leadership</h2>
+            <p class="about-me-description">
+              I am a highly skilled and capable leader, able to inspire and motivate my team to achieve great things.
+              <b>I have a strong vision and the ability to communicate it effectively,</b> as well as the creativity and
+              problem-solving skills needed to navigate any challenges that may arise. I am highly organized and able to
+              manage my time effectively, ensuring that all tasks are completed efficiently and to the highest standard.
+              My interpersonal skills allows me to build strong working relationships with my team and stakeholders.
+              Overall, I am confident in my ability to lead and drive success in any project or organization.
+            </p>
+          </div>
+          <div class="characteristics">
+            <img class="about-me-icon" src="./images/about-me/big-dreamer.svg" alt="Big Dreamer icon" />
+            <h2>Big Dreamer</h2>
+            <p class="about-me-description">
+              Bill Gates, Larry Page, Linus Torvalds... Those people are great references for me, and helped me to reach
+              where I'm actually are. People like them are the reason why I always wake up in the morning, make me some
+              nice breakfast, and... just type. Trying always to perform, to push myself, to learn something new... and
+              with that, at the end of the day, be able to create. To contribute. And to make something that, hopefully,
+              one day, changes the world to better. Hopefully one day my code reaches and helps to the people who more
+              need it.
+              <b>I have big dreams. And I'm determined to accomplish them.</b>
+            </p>
+          </div>
+          <div class="characteristics">
+            <img class="about-me-icon" src="./images/about-me/proactive.svg" alt="Proactive icon" />
+            <h2>Hard Work</h2>
+            <p class="about-me-description">
+              I am a highly dedicated and hardworking individual, with a strong commitment to delivering results and
+              achieving my goals. I believe that hard work and determination are the keys to success, and I consistently
+              strive to give my best in everything I do. Whether it's tackling a difficult project or taking on
+              additional responsibilities,
+              <b>I am always willing to go above and beyond to get the job done</b>. My strong work ethic and dedication
+              to excellence make me a valuable asset to any team.
+            </p>
+          </div>
+          <div class="characteristics">
+            <img class="about-me-icon" src="./images/about-me/teamwork.svg" alt="Teamwork icon" />
+            <h2>Teamwork</h2>
+            <p class="about-me-description">
+              I really love to work on a team, because that's where you learn a lot. When you're alone, and you do
+              everything by yourself aligned by your own perspective, not only you will be overloaded by
+              responsibilities, but also and most importantly I think, it's that you won't have anyone to question your
+              thoughts and how you implement them. We're all humans and make mistakes, and we can learn from them, but
+              the problem is that we don't always realize that we make mistakes. In this world we need each other.
+              <b>Because the teamwork makes the dream work.</b>
+            </p>
+          </div>
+          <div class="characteristics">
+            <img class="about-me-icon" src="./images/about-me/self-improvement.svg" alt="Self-Improvement icon" />
+            <h2>Self-Improvement</h2>
+            <p class="about-me-description">
+              I always try to perform myself and refine my personality, in order to become a better person in every
+              aspect of my life. When things are not going as well as I would like, often I try to figure it out by
+              myself what I'm doing wrong, and what can I do about it. If I can't handle it by myself, I ask for help on
+              those that I trust, and that I know that they can give me a hand. And if someone is bothered by something
+              that I've done or whatever,
+              <b
+                >I always try to listen to them, understand what it's bothering to them, apologize and behave myself the
+                next time.</b
+              >
+            </p>
+          </div>
+          <div class="characteristics">
+            <img class="about-me-icon" src="./images/about-me/rational.svg" alt="Rational icon" />
+            <h2>Rational & Objective</h2>
+            <p class="about-me-description">
+              I am a highly rational and analytical thinker, with a natural tendency to approach problems and challenges
+              in a logical and structured manner. I have a strong ability to analyze and interpret data, using it to
+              inform my decisions and actions. I also excel at considering multiple perspectives and weighing the pros
+              and cons of different options before making a choice. In my personal and professional life,
+              <b
+                >I have consistently demonstrated my ability to make sound and well-reasoned decisions, even under
+                pressure</b
+              >.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="technologies">
+      <!-- .anchor & .text-center's styles are stored in globals -->
+      <div id="technologies" class="anchor"></div>
+      <div class="text-center">
+        <h1>Technologies</h1>
+      </div>
+      <div class="technologies-container">
+        <div class="technology-container">
+          <div class="image-container">
+            <img src="./images/technologies/html-css-js.webp" />
+            <img src="./images/technologies/sass.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>HTML, CSS, JS, & SASS</h2>
+              <hr />
+            </div>
+            <p>
+              Throughout my entire career, I took care of learn the very basics of web development as much as possible.
+              These technologies (except for SASS), are the heart contained in each webpage that you see today. These
+              are the pillars that regulates a vast part of the digital revolution in which we live today, so
+              understanding how, when, why, and where to use them, it's crucial to provide to the clients an outstanding
+              experience.
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/HTML-CSS-JS-and-SASS-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img src="./images/technologies/react.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>React</h2>
+              <hr />
+            </div>
+            <p>
+              With React, I'm capable of creating sublime SPA's and highly responsive web applications. The CSR type of
+              render changes radically how you should develop your webpage compared to the traditional SSR approach.
+              Thanks to my intensive study, professional teachers who stayed with me through the whole process, and
+              investigation of how a CSR framework works and how it differs from the traditional approach, I'm able to
+              debug, find, and mitigate all kinds of bugs that could be presented in a complex application.
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/React-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img id="next-svg" src="./images/technologies/nextjs.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>NextJS</h2>
+              <hr />
+            </div>
+            <p>
+              Each type of render for a web application has it upsides and downsides, and it's up to us the developers
+              who creates the architecture to choose the one who fits the best the needs of our application, but NextJS
+              introduced itself to the market with a whole new idea: Why not mix both types of render, in order to get
+              the best from both worlds? And that's where NextJS kicks in. With a profound understanding and experience
+              with SSR and CSR, with NextJS I've been able to mix both of them to create multiple web apps which its
+              performance goes beyond than imagination.
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/Nextjs-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img src="./images/technologies/typescript.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>TypeScript</h2>
+              <hr />
+            </div>
+            <p>
+              TypeScript is a powerful programming language that adds optional static typing and other advanced features
+              to JavaScript. My expertise in TypeScript allows me to write more reliable, scalable, and maintainable
+              code. The optional static typing catches type-related errors before runtime, saving time and effort in the
+              debugging process. Additionally, TypeScript's advanced language features and type inference capabilities
+              enable me to write code that is more concise and expressive. I am continually working to improve my skills
+              in TypeScript and stay up-to-date with the latest language features and best practices.
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/TypeScript-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img id="express-svg" src="./images/technologies/express.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>Express</h2>
+              <hr />
+            </div>
+            <p>
+              With Express, I've mastered building robust web apps. I understand its routing and extensibility, creating
+              efficient APIs. I excel in authentication, securing user sessions and sensitive data. I optimize
+              performance and handle errors effectively. My expertise extends to plugins and modules, like compression
+              and cookie-parser. I stay updated with the latest in Express and contribute to the community, delivering
+              top-notch solutions.
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/Express-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img src="./images/technologies/react.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>React Native</h2>
+              <hr />
+            </div>
+            <p>
+              As a web developer, I have mastered React Native, a framework that allows me to build native mobile
+              applications using my existing React skills. With a deep understanding of its component-based architecture
+              and powerful rendering engine, I can create cross-platform mobile apps with intuitive interfaces and
+              optimal performance. By staying up to date with the latest features and best practices, I confidently
+              deliver high-quality mobile experiences using React Native.
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/React-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img src="./images/technologies/mongodb.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>MongoDB</h2>
+              <hr />
+            </div>
+            <p>
+              As I expanded my database skills beyond MySQL, I embraced the world of NoSQL with MongoDB. Choosing the
+              right database for your application is vital, and I excel in seamlessly integrating both types to deliver
+              maximum performance. I am well-versed in MongoDB's features, capabilities, and best practices, enabling me
+              to design flexible and scalable database structures. From managing complex data relationships to storing
+              unstructured data, MongoDB provides the perfect solution, and I have the proficiency to unleash its full
+              potential. With extensive experience in optimizing queries, indexes, and schemas, I ensure your MongoDB
+              deployments operate flawlessly, meeting and exceeding your application's needs.
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/MongoDB-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img src="./images/technologies/mysql.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>MySQL</h2>
+              <hr />
+            </div>
+            <p>
+              One of my strongest points while developing, are MySQL databases. And that's because MySQL was the first
+              database technology that I've learned in my whole career, and I like it so much that I'm still using it!
+              With MySQL I can ensure the reliability and functionality that the client needs while at the same time
+              provide the simplicity and confidentiality through environment variables that the developers needs. Also,
+              by creating a strong relational database architecture, the data becomes a lot more handy and readable to
+              analyze and make some data science with it, create your own API, or even make your websites more dynamic!
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/MySQL-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img src="./images/technologies/firebase.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>Firebase</h2>
+              <hr />
+            </div>
+            <p>
+              After sucessfully mastering how to properly use MySQL relational databases, I decided to take a step
+              forward on my career and learn what are and how to use NoSQL databases. First of all, if you want to
+              create a robust backend for your application, it's very important to understand which type of database
+              best suits with your type of application. Whether your application fits better with one type or another, I
+              can proficiently integrate both of them, guaranteeing the maximum performance that your application could
+              ask (and deserves) for.
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/Firebase-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div class="image-container cypress-cucumber-logo-container">
+            <img id="cypress-svg" src="./images/technologies/cypress.svg" />
+            <img id="cucumber-svg" src="./images/technologies/cucumber.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>Cypress & Cucumber</h2>
+              <hr />
+            </div>
+            <p>
+              Utilizing the combination of Cypress and Cucumber, I have the ability to write and automate end-to-end
+              tests for web applications. This allows for quick and reliable feedback on the performance and
+              functionality of the apps, ensuring that they are meeting the needs of the users. Cucumber's natural
+              language expression of tests makes them easily understandable to a range of stakeholders, including
+              non-technical team members. I have experience using these tools in various projects, and I am confident in
+              my ability to effectively implement end-to-end testing to ensure the quality and reliability of web
+              applications.
+            </p>
+            <a class="button-container project" href="https://github.com/matias-fuentes/Cypress-and-Cucumber-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img src="./images/technologies/python.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>Python</h2>
+              <hr />
+            </div>
+            <p>
+              My strong knowledge of Python allows me to develop reliable software solutions for web development and
+              algorithm implementation. This versatile language is a key tool in my development toolkit and I have
+              extensive expertise in using it for a range of purposes. I have used Python to develop web applications
+              using frameworks such as Flask, and I have also utilized it for the implementation of algorithms for data
+              analysis projects. I am comfortable working with Python in a variety of contexts and I feel confident in
+              my ability to effectively use it to solve a wide range of development challenges.
+            </p>
+
+            <a class="button-container project" href="https://github.com/matias-fuentes/Python-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div>
+            <img id="flask-svg" src="./images/technologies/flask.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>Flask</h2>
+              <hr />
+            </div>
+            <p>
+              My expertise in Flask allows me to quickly and efficiently create and deploy web applications. This
+              lightweight Python web framework enables the development of dynamic and responsive web apps, and I have a
+              strong track record of delivering high-quality web solutions to production. I'm comfortable working with
+              the framework to create a variety of web solutions, and I am convinced in my capability to use Flask to
+              deliver high-quality web applications to clients.
+            </p>
+
+            <a class="button-container project" href="https://github.com/matias-fuentes/Flask-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+        <div class="technology-container">
+          <div class="front-end-langs-container">
+            <img src="./images/technologies/c.svg" />
+          </div>
+          <div class="technology-desc-container">
+            <div>
+              <h2>C</h2>
+              <hr />
+            </div>
+            <p>
+              With a deep understanding of C programming, I am able to create high-performance and efficient software
+              solutions. This widely-used language is a valuable tool in my repertoire, allowing me to tackle complex
+              projects with confidence. I have experience using C in a variety of contexts, including
+              performance-critical software applications. I am comfortable working with C and I'm confident in my
+              ability to effectively use it to develop high-quality software solutions.
+            </p>
+
+            <a class="button-container project" href="https://github.com/matias-fuentes/C-projects">
+              <h2>Projects</h2>
+              <img class="hyperlink-arrow" src="./images/technologies/bold-right-arrow.svg" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="career" class="career">
+      <!-- .anchor & .text-center's styles are stored in globals -->
+      <div id="career" class="anchor"></div>
+      <div class="text-center career-title">
+        <h1>Career</h1>
+      </div>
+      <div class="careers career-borderless">
+        <img class="mobile-image" src="./images/career/certificates/harvard-certificate.webp" />
+        <div class="half-page">
+          <div class="subtitle-container">
+            <h2>Computer Sciences at Harvard University</h2>
+          </div>
+          <p class="paragraph margin-8">
+            During my studies at Harvard University, I had the chance to fully engage in a comprehensive computer
+            science program taught by well-respected professors in the field. My coursework encompassed a wide range of
+            topics including algorithms, data structures, and programming languages, and I established a strong
+            foundation in Computer Sciences concepts. In addition to the coursework, I worked on real-world projects and
+            received valuable guidance from my professors. I am confident that my experience at Harvard University has
+            prepared me for success in my future career in this field, and I feel well-equipped to tackle challenges in
+            the industry thanks to the comprehensive curriculum and skilled instructors at this prestigious institution.
+          </p>
+          <div class="certificate-link-container margin-8">
+            <a
+              class="certificate-link"
+              href="https://certificates.cs50.io/8b4d4c22-8a13-4bf0-8bea-f610957f55a3.pdf?size=letter"
+            >
+              Certificate Link
+            </a>
+            <img class="hyperlink-arrow" src="./images/about-me/blue-right-arrow.svg" />
+          </div>
+          <!-- .characteristics's styles are stored in globals -->
+          <div class="characteristics-container">
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/hourglass.svg" alt="Hourglass" />
+              </div>
+              <div class="flex-column">
+                <h3>2 years</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/map-pin.svg" alt="Map pin" />
+              </div>
+              <div>
+                <h3>Remote</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/graduation-cap.svg" alt="Graduation cap" />
+              </div>
+              <div>
+                <h3>Graduated</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="desktop-image" src="./images/career/certificates/harvard-certificate.webp" />
+      </div>
+      <div class="careers">
+        <img src="./images/career/certificates/react-and-next-certificate.webp" />
+        <div>
+          <!-- .subtitle-container's styles are stored in globals -->
+          <div class="subtitle-container">
+            <h2>Intensive full course of React & Next.js from Academind</h2>
+          </div>
+          <p class="paragraph margin-8">
+            At <a class="career-link" href="https://www.youtube.com/c/Academind">Academind</a>, I took a course that
+            focused on teaching me how to construct efficient, dynamic web applications using modern technologies like
+            React and NextJS. I obtained a deep understanding of the React framework and learned how to use NextJS to
+            optimize performance and scalability. The course was designed to provide a personal touch with problems of
+            the real world, employing the use of state-of-the-art technologies and the latest techniques. I am grateful
+            for the opportunity to have studied with experienced professionals at Academind and feel well-prepared to
+            work with these technologies in my future career.
+          </p>
+          <div class="certificate-link-container margin-8">
+            <a
+              class="certificate-link"
+              href="https://www.udemy.com/certificate/UC-bb1a6577-6ab0-47c5-a8b1-3ed9a9b0c8b5/"
+            >
+              Certificate Link
+            </a>
+            <img class="hyperlink-arrow" src="./images/about-me/blue-right-arrow.svg" />
+          </div>
+          <!-- .characteristics's styles are stored in globals -->
+          <div class="characteristics-container">
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/hourglass.svg" alt="Hourglass" />
+              </div>
+              <div>
+                <h3>3 months</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/map-pin.svg" alt="Map pin" />
+              </div>
+              <div>
+                <h3>Remote</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/graduation-cap.svg" alt="Graduation cap" />
+              </div>
+              <div>
+                <h3>Graduated</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="careers">
+        <img class="mobile-image" src="./images/career/certificates/typescript-certificate.webp" />
+        <div>
+          <!-- .subtitle-container's styles are stored in globals -->
+          <div class="subtitle-container">
+            <h2>TypeScript course from Academind</h2>
+          </div>
+          <p class="paragraph margin-8">
+            At <a class="career-link" href="https://www.youtube.com/c/Academind">Academind</a>, I took a course that
+            taught me how to use the powerful programming language TypeScript to build scalable, maintainable
+            applications. I gained a thorough understanding of TypeScript's type system and learned how to use it to
+            improve code quality and reduce the risk of errors. The course offered practical experience in
+            troubleshooting potential development errors through a wide diversity of possible technical points of view,
+            while at the same time maintaining a strong integrity and a competent level of the development team. I feel
+            confident in my ability to use TypeScript in my future projects thanks to the comprehensive curriculum and
+            skilled instructors at Academind. My studies at this institution have provided me with the necessary skills
+            and knowledge to excel in my career and I am grateful for the opportunity to have learned from such
+            experienced professionals.
+          </p>
+          <div class="certificate-link-container margin-8">
+            <a
+              class="certificate-link"
+              href="https://www.udemy.com/certificate/UC-342fb889-4fe4-4de8-a13c-4078d228eab5/"
+            >
+              Certificate Link
+            </a>
+            <img class="hyperlink-arrow" src="./images/about-me/blue-right-arrow.svg" />
+          </div>
+          <!-- .characteristics's styles are stored in globals -->
+          <div class="characteristics-container">
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/hourglass.svg" alt="Hourglass" />
+              </div>
+              <div>
+                <h3>4 months</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/map-pin.svg" alt="Map pin" />
+              </div>
+              <div>
+                <h3>Remote</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/graduation-cap.svg" alt="Graduation cap" />
+              </div>
+              <div>
+                <h3>Graduated</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="desktop-image" src="./images/career/certificates/typescript-certificate.webp" />
+      </div>
+      <div class="careers">
+        <img src="./images/career/certificates/cypress-certificate.webp" />
+        <div>
+          <!-- .subtitle-container's styles are stored in globals -->
+          <div class="subtitle-container">
+            <h2>Cypress & Cucumber course from Rahul Shetty Academy</h2>
+          </div>
+          <p class="paragraph margin-8">
+            On the Cypress & Cucumber course I learned how to create unit tests to ensure that every component that
+            you're testing works and behaves as expected. Also, I learned how to profesionally integrate E2E testings by
+            testing a large number of web applications throughout the entire course and mix them with beauty and useful
+            data-rich dashboards perfect to meet the business standards and requirements, and also talking about
+            businesses, to extend even further the capability for non-technical personal to understand the overview
+            performance of the tests and what each test is and represents on the page, I also can implement the Cucumber
+            framework for a much improved TDD experience.
+          </p>
+          <div class="certificate-link-container margin-8">
+            <a
+              class="certificate-link"
+              href="https://www.udemy.com/certificate/UC-b052403f-07e3-47c6-be95-c1bc204a0384/"
+            >
+              Certificate Link
+            </a>
+            <img class="hyperlink-arrow" src="./images/about-me/blue-right-arrow.svg" />
+          </div>
+          <!-- .characteristics's styles are stored in globals -->
+          <div class="characteristics-container">
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/hourglass.svg" alt="Hourglass" />
+              </div>
+              <div>
+                <h3>3 months</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/map-pin.svg" alt="Map pin" />
+              </div>
+              <div>
+                <h3>Remote</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/graduation-cap.svg" alt="Graduation cap" />
+              </div>
+              <div>
+                <h3>Graduated</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="careers">
+        <img class="mobile-image" src="./images/career/certificates/react-native-certificate.webp" />
+        <div>
+          <!-- .subtitle-container's styles are stored in globals -->
+          <div class="subtitle-container">
+            <h2>React Native course from Academind</h2>
+          </div>
+          <p class="paragraph margin-8">
+            The React Native course offered by Academind was a transformative experience in my web developer journey.
+            Led by industry experts, the course provided a comprehensive understanding of React Native, empowering me to
+            build native mobile applications. The course delved into the fundamental concepts of React Native, such as
+            component-based architecture, JSX syntax, and the integration of native modules. Through hands-on projects
+            and real-world examples, I gained practical experience in developing cross-platform mobile apps with React
+            Native. The instructors at Academind fostered a supportive learning environment, providing clear
+            explanations, practical demonstrations, and valuable insights into best practices. By completing the React
+            Native course with Academind, I acquired the knowledge and skills necessary to confidently develop
+            high-quality mobile applications using React Native.
+          </p>
+          <div class="certificate-link-container margin-8">
+            <a
+              class="certificate-link"
+              href="https://www.udemy.com/certificate/UC-4f54c59b-78a2-4c7f-bbf3-d668ea37cef4/"
+            >
+              Certificate Link
+            </a>
+            <img class="hyperlink-arrow" src="./images/about-me/blue-right-arrow.svg" />
+          </div>
+          <!-- .characteristics's styles are stored in globals -->
+          <div class="characteristics-container">
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/hourglass.svg" alt="Hourglass" />
+              </div>
+              <div>
+                <h3>2 months</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/map-pin.svg" alt="Map pin" />
+              </div>
+              <div>
+                <h3>Remote</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/graduation-cap.svg" alt="Graduation cap" />
+              </div>
+              <div>
+                <h3>Graduated</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="desktop-image" src="./images/career/certificates/react-native-certificate.webp" />
+      </div>
+
+      <div class="careers">
+        <img src="./images/career/certificates/bigben-english-institute.webp" />
+        <div>
+          <!-- .subtitle-container's styles are stored in globals -->
+          <div class="subtitle-container">
+            <h2>English at BigBen English Institute</h2>
+          </div>
+          <p class="paragraph">
+            At BigBen English Institute, I studied English at an advanced level with skilled teachers. My coursework
+            covered a range of topics including grammar, vocabulary, and pronunciation, and I developed a strong
+            foundation in English language skills. In addition to the coursework, I had the opportunity to practice my
+            English in real-world situations and received valuable guidance from my professors. I feel confident in my
+            ability to communicate effectively in English thanks to the comprehensive curriculum and experienced
+            instructors at BigBen English Institute. I am grateful for the opportunity to have studied with such skilled
+            professionals and feel well-prepared to succeed in professional and personal endeavors that require strong
+            English language skills.
+          </p>
+          <!-- .characteristics's styles are stored in globals -->
+          <div class="characteristics-container bigben-characteristics-marg">
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/hourglass.svg" alt="Hourglass" />
+              </div>
+              <div>
+                <h3>5 years</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/map-pin.svg" alt="Map pin" />
+              </div>
+              <div>
+                <h3>Díaz Vélez 236, Rosario, Santa Fe, Argentina</h3>
+              </div>
+            </div>
+            <div class="characteristics">
+              <div>
+                <img class="career-icons" src="./images/career/icons/graduation-cap.svg" alt="Graduation cap" />
+              </div>
+              <div>
+                <h3>Not graduated (4/5 years done)</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+      <!-- .anchor & .text-center's styles are stored in globals -->
+      <div id="projects" class="anchor"></div>
+      <div class="text-center career-title">
+        <h1>Projects</h1>
+      </div>
+      <div class="carousel-container projects-carousel">
+        <input
+          class="arrow-properties arrow-left"
+          type="image"
+          src="./images/gallery/left-arrow.svg"
+          alt="Arrow left"
+          id="projects-arrow-left"
+        />
+        <input
+          class="arrow-properties arrow-right"
+          type="image"
+          src="./images/gallery/right-arrow.svg"
+          alt="Arrow right"
+          id="projects-arrow-right"
+        />
+        <div class="images-carousel-container">
+          <img src="./images/projects/refokuschallenge.webp" />
+          <div>
+            <div>
+              <h3>RefokusChallenge</h3>
+              <p>The ultimate Pokédex</p>
+              <a class="project-btn button-container project" href="https://refokuschallenge.vercel.app/">
+                <h2>Visit</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="images-carousel-container">
+          <img src="./images/projects/wikifood.webp" />
+          <div>
+            <div>
+              <h3>WikiFood</h3>
+              <p>All about your favourite foods, in just one place.</p>
+              <a class="project-btn button-container project" href="https://cs50-wikifood.vercel.app/">
+                <h2>Visit</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="images-carousel-container">
+          <img src="./images/projects/nexteventer.webp" />
+          <div>
+            <div>
+              <h3>NextEventer</h3>
+              <p>Your next event is just a click away.</p>
+              <a class="project-btn button-container project" href="https://nexteventer.vercel.app/">
+                <h2>Visit</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="images-carousel-container">
+          <img src="./images/projects/google-clone.webp" />
+          <div>
+            <div>
+              <h3>Google Clone</h3>
+              <p>Google Clone - The search engine that feels like home</p>
+              <a class="project-btn button-container project" href="https://cs50-googleclone.netlify.app/">
+                <h2>Visit</h2>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__links">
+        <div class="footer__contact-container">
+          <h3 class="footer__title">Contact</h3>
+          <div>
+            <img class="footer__icon" src="./images/footer/email.svg" />
+            <a class="footer__email" href="mailto:matiasfuentesdev@gmail.com">matiasfuentesdev@gmail.com</a>
+          </div>
+          <div>
+            <img class="footer__icon" src="./images/footer/phone.svg" />
+            <p class="footer__phone-number">+49 176 59628041</p>
+          </div>
+        </div>
+        <div class="footer__social-container">
+          <h3 class="footer__title">Social Medias</h3>
+          <nav class="footer__social-links">
+            <a class="footer__social-links--hyperlink" href="https://github.com/matias-fuentes">
+              <img class="footer__icon footer__icon--highlight" src="./images/footer/github.svg" id="github-svg" />
+            </a>
+            <a class="footer__social-links--hyperlink" href="https://www.linkedin.com/in/matias-damian-fuentes/">
+              <img class="footer__icon footer__icon--highlight" src="./images/footer/linkedin.svg" id="linkedin-svg" />
+            </a>
+            <a class="footer__social-links--hyperlink" href="https://youtube.com/@MatiasFuentes-DEV">
+              <img class="footer__icon footer__icon--highlight" src="./images/footer/youtube.svg" id="youtube-svg" />
+            </a>
+          </nav>
+        </div>
+        <div class="footer__logo-container">
+          <a class="footer__logo-hyperlink" href="#">
+            <img class="footer__logo" src="./images/header/logo.svg" />
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <p class="footer__copyright-text">Copyright &copy <span id="current-year"></span>. All rights reserved.</p>
+        <script>
+          document.getElementById('current-year').innerHTML = new Date().getFullYear();
+        </script>
+      </div>
+    </footer>
+  </body>
+
+  <script src="./scripts/intersection-observer.js"></script>
+  <script src="./scripts/theme.js"></script>
+  <script src="./scripts/carousel.js"></script>
+  <script src="./scripts/burger-menu.js"></script>
 </html>

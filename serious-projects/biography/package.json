@@ -1,0 +1,28 @@
+{
+  "name": "biography",
+  "version": "1.2.0",
+  "description": "CV (and my first) website where I talk about me, my career, and the technologies that I've learned",
+  "main": "",
+  "type": "module",
+  "keywords": [
+    "Harvard",
+    "CV",
+    "curriculum-vitae",
+    "Biography",
+    "Full Stack Web Developer",
+    "HTML, CSS and JS",
+    "SASS",
+    "React",
+    "NextJS",
+    "TypeScript",
+    "SQL",
+    "NoSQL",
+    "Cypress with Cucumber",
+    "Redux",
+    "Python",
+    "C",
+    "Flask"
+  ],
+  "author": "Matías Fuentes",
+  "license": "ISC"
+}

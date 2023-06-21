@@ -1,15 +1,14 @@
-# [WorldwideMeetups](http://worldwidemeetups.herokuapp.com/)
+# [WorldwideMeetups](https://worldwidemeetups.vercel.app)
 
-Wanna connect and hangout with people from all around the world? Then be free to come to WorldwideMeetups! And growth
-and increase one of your most valuable resources; your networking.
+WEBPAGE: https://worldwidemeetups.vercel.app
 
-With WorldwideMeetups, you'll be able to connect and enrich your social circle by assiting to events, parties,
+## Description
+
+Wanna connect and hangout with people from all over the world? Then be free to come to Worldwide Meetups! And growth and
+increase one of your most valuable resources; your networking.
+
+With Worldwide Meetups, you'll be able to connect and enrich your social circle by assiting to events, parties,
 conferences of all types... maybe you're a geek guy! Or maybe you love to play board games! Whatever makes you unique,
 in WM you'll find your place.
 
-## How to Install
-
-```
-npm i
-npm start
-```
+![WorldwideMeetups preview](https://github.com/matias-fuentes/WorldwideMeetups/assets/70669575/02ca87d2-7208-4bd0-a00c-a59c6d49e908)

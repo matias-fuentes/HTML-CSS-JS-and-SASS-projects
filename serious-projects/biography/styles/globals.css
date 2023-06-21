@@ -1,137 +1,173 @@
+#test1 {
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #0078d7;
+  font-size: 2rem;
+  font-family: Helvetica;
+}
+
+#test1:hover {
+  cursor: pointer;
+  background-color: blue;
+  transition: all 0.25s;
+}
+
 html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 section {
-    margin: 0rem 5.75vw 3.2rem 5.75vw;
-    position: relative;
+  margin: 0rem 5.75vw 3.2rem 5.75vw;
+  position: relative;
 }
 
-h1, h2, h3, h4, p, a, span, li {
-    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
-    font-style: normal;
-    font-variant: normal;
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+span,
+li {
+  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+  font-style: normal;
+  font-variant: normal;
+  margin: 0;
 }
 
-h1, h2 {
-    font-weight: bold;
+h1,
+h2 {
+  font-weight: bold;
 }
 
-p, a, span, li {
-    font-size: 3.2rem;
-    font-weight: 400;
-    line-height: 4.8rem;
+p,
+a,
+span,
+li {
+  font-size: 3.2rem;
+  font-weight: 400;
+  line-height: 4.8rem;
 }
 
 h1 {
-    font-size: 8rem;
-    width: auto;
-    text-align: center;
-    border-bottom: 0.8rem solid #0078d7;
-    padding: 3.2rem;
+  font-size: 8rem;
+  width: auto;
+  text-align: center;
+  border-bottom: 0.8rem solid #0078d7;
+  padding: 3.2rem;
 }
 
 h2 {
-    font-size: 4.2rem;
-    line-height: 5rem;
+  font-size: 4.2rem;
+  line-height: 5rem;
 }
 
 h3 {
-    font-size: 4rem;
-    line-height: 4.8rem;
-    font-weight: 400;
-}
-
-img {
-    object-fit: contain;
+  font-size: 4rem;
+  line-height: 4.8rem;
+  font-weight: 400;
 }
 
 a {
-    font-size: 2.4rem;
+  font-size: 2.4rem;
+}
+
+img {
+  object-fit: contain;
 }
 
 hr {
-    margin: 0;
-    border: 1px solid #555555;
+  margin: 0;
+  border: 1px solid #555555;
 }
 
 li {
-    padding: 3.2rem 6.4rem;
-    position: relative;
+  padding: 3.2rem 6.4rem;
+  position: relative;
+}
+
+b {
+  color: rgb(31, 31, 31);
+}
+
+.dark-card {
+  background-color: #0d0d0d !important;
 }
 
 .anchor {
-    position: absolute;
-    top: -90px;
+  position: absolute;
+  top: -90px;
+}
+
+.layout {
+  margin: 0rem 5.75vw 3.2rem 5.75vw;
 }
 
 .characteristics {
-    flex-basis: 100%;
-    margin: 2.4rem 0rem;
-    padding: 3.2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+  flex-basis: 100%;
+  margin: 2.4rem 0rem 0rem 0rem;
+  padding: 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .characteristics > * {
-    margin-bottom: 6.4rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  margin-bottom: 6.4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .text-center {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 3.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 3.2rem;
+}
+
+.subtitle-container {
+  margin-bottom: 3.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 @media screen and (min-width: 1024px) {
-    h1 {
-        font-size: 3.2rem;
-        border-bottom: 0.4rem solid #0078d7;
-        padding: 1.2rem;
-    }
+  h1 {
+    font-size: 3.2rem;
+    border-bottom: 0.4rem solid #0078d7;
+    padding: 1.2rem;
+  }
 
-    h2 {
-        font-size: 2.4rem;
-        line-height: 3.6rem;
-    }
+  h2 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
 
-    h3 {
-        font-size: 2rem;
-        line-height: 3.2rem;
-    }
+  h3 {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
 
-    p, span, li {
-        font-size: 1.6rem;
-        line-height: 2.4rem;
-    }
+  p,
+  span,
+  li {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
 
-    li {
-        padding: 2.4rem 6.4rem;
-    }
+  li {
+    padding: 2.4rem 6.4rem;
+  }
 
-    .subtitle-container {
-        margin-bottom: 0rem;
-        display: flex;
-        justify-content: center;
-    }
+  .characteristics {
+    flex-basis: 42rem;
+  }
 
-    .characteristics {
-        flex-basis: 42rem;
-    }
-
-    .characteristics > * {
-        margin-bottom: 1.6rem !important;
-    }
-
-    .text-center {
-        margin-bottom: 1.6rem;
-    }
+  .characteristics > * {
+    margin-bottom: 1.6rem !important;
+  }
 }

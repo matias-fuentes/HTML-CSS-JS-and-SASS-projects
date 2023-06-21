@@ -1,22 +1,19 @@
-import { useHistory } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 import AddMeetupForm from '../components/meetups/AddMeetupForm';
 
 function AddMeetups() {
-    const history = useHistory();
+    const navigate = useNavigate();
 
     function AddMeetupsHandler(meetupData) {
-        fetch(
-            'https://worldwide-meetups-default-rtdb.europe-west1.firebasedatabase.app/meetups.json',
-            {
-                method: 'POST',
-                body: JSON.stringify(meetupData),
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-            }
-        ).then(() => {
-            history.replace('/');
+        fetch('https://worldwidemeetups-default-rtdb.europe-west1.firebasedatabase.app/meetups.json', {
+            method: 'POST',
+            body: JSON.stringify(meetupData),
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        }).then(() => {
+            navigate('/', { replace: true });
         });
     }
 

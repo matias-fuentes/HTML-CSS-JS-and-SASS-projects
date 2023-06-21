@@ -2,28 +2,28 @@
 
 ## URLs
 
-- WikiFood: https://cs50-wikifood.vercel.app/
+-   WikiFood: https://cs50-wikifood.vercel.app
 
-- NextEventer: https://nexteventer.vercel.app/
+-   Fineer: https://fineer.vercel.app/register
 
-- Fineer: https://fineer.herokuapp.com/register
+-   Biography: https://matiasfuentes.netlify.app
 
-- Biography: https://matiasfuentes.netlify.app/
+-   NextEventer: https://nexteventer.vercel.app
 
-- Google Clone: https://cs50-googleclone.netlify.app/
+-   Google Clone: https://cs50-googleclone.netlify.app
 
-- Refokus Challenge: https://refokuschallenge.vercel.app/
+-   Refokus Challenge: https://refokuschallenge.vercel.app
 
 ## Repositories
 
-- WikiFood: https://github.com/matias-fuentes/WikiFood
+-   WikiFood: https://github.com/matias-fuentes/WikiFood
 
-- NextEventer: https://github.com/matias-fuentes/NextEventer
+-   Fineer: https://github.com/matias-fuentes/Fineer
 
-- Fineer: https://github.com/matias-fuentes/Fineer
+-   Biography: https://github.com/matias-fuentes/Biography
 
-- Biography: https://github.com/matias-fuentes/Biography
+-   NextEventer: https://github.com/matias-fuentes/NextEventer
 
-- Google Clone: https://github.com/matias-fuentes/Google-Clone
+-   Google Clone: https://github.com/matias-fuentes/Google-Clone
 
-- Refokus Challenge: https://github.com/matias-fuentes/RefokusChallenge
+-   Refokus Challenge: https://github.com/matias-fuentes/RefokusChallenge

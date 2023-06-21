@@ -1,13 +1,49 @@
-.technologies-container * {
-    margin-bottom: 3.2rem;
+.cypress-cucumber-logo-container {
+    flex-direction: column !important;
+}
+
+.cypress-cucumber-logo-container > img {
+    height: 10rem !important;
+}
+
+.cypress-cucumber-logo-container > img:first-child {
+    margin-bottom: 0rem !important;
+}
+
+#cypress-webp {
+    margin-bottom: 1.2rem;
+}
+
+.technology-desc-container {
+    justify-content: space-between !important;
+}
+
+.technology-desc-container > div {
+    margin-bottom: 0;
+    margin-top: 3.2rem;
+}
+
+.technology-desc-container > div > h2 {
+    margin-bottom: 2.4rem;
+}
+
+.technology-desc-container > div > hr {
+    margin: 0;
+}
+
+.technology-desc-container > p {
+    margin: 4.8rem 0rem;
 }
 
 .technology-container {
     margin: 12.8rem 0rem;
+    padding: 3rem 5rem;
+    border-radius: 8px;
 }
 
 .technology-container img {
     height: 20rem;
+    margin-bottom: 4.8rem;
 }
 
 .technology-container > * {
@@ -17,12 +53,17 @@
     text-align: center;
 }
 
+.technology-container > div > p {
+    text-align: justify;
+}
+
 .button-container {
     background-color: #0078d7;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 3.2rem 0rem;
+    margin: 0 !important;
 }
 
 .button-container * {
@@ -37,30 +78,45 @@
     text-decoration: none;
 }
 
+.image-container {
+    flex-direction: row;
+    gap: 3.2rem;
+}
+
 @media screen and (min-width: 1024px) {
+    .cypress-cucumber-logo-container > img {
+        height: auto !important;
+    }
+
     .technologies-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
 
-    .technologies-container * {
-        margin-bottom: 2.4rem;
-    }
-
     .technology-container {
-        margin: 2.4rem 0rem;
+        margin: 2.4rem 1.2rem;
+        padding: 3rem;
     }
 
     .technology-container img {
-        width: 16rem;
-        margin-right: 0.8rem;
+        width: 12rem;
+        margin-right: 2.4rem;
+        margin-bottom: 0rem;
         height: auto;
+    }
+
+    .technology-desc-container > div {
+        margin-top: 0rem;
+    }
+
+    .technology-desc-container > p {
+        margin: 3.2rem 0rem;
     }
 
     .technologies-container > div {
         display: flex;
-        flex-basis: 48rem;
+        flex-basis: 46rem;
         text-align: center;
     }
 
@@ -78,5 +134,9 @@
         cursor: pointer;
         transition: all 0.25s;
         background-color: #0078d775;
+    }
+
+    .image-container {
+        flex-direction: column;
     }
 }
