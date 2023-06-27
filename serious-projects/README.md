@@ -12,7 +12,7 @@
 
 -   Google Clone: https://cs50-googleclone.netlify.app
 
--   Refokus Challenge: https://refokuschallenge.vercel.app
+-   Refokus Challenge: https://refokuschallenge.netlify.app
 
 ## Repositories
 
