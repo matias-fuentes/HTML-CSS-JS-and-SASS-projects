@@ -1,4 +1,4 @@
-# Published projects
+# Published projects using HTML, CSS, JavaScript and SASS
 
 ## URLs
 
